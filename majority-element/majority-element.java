@@ -8,13 +8,13 @@ class Solution {
                 counts.put(num, counts.get(num)+1);
             }
         }
-         Map.Entry<Integer, Integer> majorityEntry = null;
-        for (Map.Entry<Integer, Integer> entry : counts.entrySet()) {
-            if (majorityEntry == null || entry.getValue() > majorityEntry.getValue()) {
-                majorityEntry = entry;
+        System.out.println(counts);
+        int max =nums[0];
+        for(int i : counts.keySet()){
+            if(counts.get(i)>counts.get(max)){
+                max=i;
             }
         }
-
-        return majorityEntry.getKey();
+        return max;
 }
 }
