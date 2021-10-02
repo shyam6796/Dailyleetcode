@@ -8,9 +8,9 @@ class Solution {
         }
            PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> a[1]-b[1]);
         
-         for (Map.Entry<Integer,Integer> entry : map.entrySet()){
-                  int key = entry.getKey();
-                  int val = entry.getValue();
+         for ( int i :map.keySet()){
+                  int key = i;
+                  int val = map.get(i);
         
                 pq.add(new int[]{key,val});
             }
