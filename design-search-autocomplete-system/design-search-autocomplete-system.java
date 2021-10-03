@@ -1,6 +1,6 @@
 class AutocompleteSystem {
-    
-   class TrieNode implements Comparable<TrieNode> {
+
+    class TrieNode implements Comparable<TrieNode> {
         TrieNode[] children;
         String s;
         int times;
