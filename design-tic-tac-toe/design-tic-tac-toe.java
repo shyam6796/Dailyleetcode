@@ -1,72 +1,47 @@
 class TicTacToe {
-     private int[][] board;
-    private int n;
-
+    int matrix[][];
+    int size;
     public TicTacToe(int n) {
-        board = new int[n][n];
-        this.n = n;
+      matrix= new int[n][n];
+        size =n;
     }
     
-    /** Initialize your data structure here. */
-   
-    
-    /** Player {player} makes a move at ({row}, {col}).
-        @param row The row of the board.
-        @param col The column of the board.
-        @param player The player, can be either 1 or 2.
-        @return The current winning condition, can be either:
-                0: No one wins.
-                1: Player 1 wins.
-                2: Player 2 wins. */
     public int move(int row, int col, int player) {
+        matrix[row][col]=player;
         
-          board[row][col] = player;
-        // check if the player wins
-        if ((checkRow(row, player)) ||
-            (checkColumn(col, player)) ||
-            (row == col && checkDiagonal(player)) ||
-            (col == n - row - 1 && checkAntiDiagonal(player))) {
+        if(checkRow(row,player) ||checkCol(col,player) || (col ==row && checkDiag(player)) || (col == size-row-1 && checkAntiDiag(player))){
             return player;
-        
+        }
+        return 0;
     }
-         return 0;
-}       
-          private boolean checkDiagonal(int player) {
-        for (int row = 0; row < n; row++) {
-            if (board[row][row] != player) {
-                return false;
-            }
+    
+    public boolean checkRow(int row, int player){
+        for(int i=0; i<size; i++){
+            if(matrix[row][i] != player)return false;
         }
         return true;
-    }
-
-    private boolean checkAntiDiagonal(int player) {
-        for (int row = 0; row < n; row++) {
-            if (board[row][n - row - 1] != player) {
-                return false;
-            }
+    } 
+    
+    public boolean checkCol(int col, int player){
+        for(int i=0; i<size; i++){
+            if(matrix[i][col] != player)return false;
         }
         return true;
-    }
-
-    private boolean checkColumn(int col, int player) {
-        for (int row = 0; row < n; row++) {
-            if (board[row][col] != player) {
-                return false;
-            }
+    }     
+    
+    public boolean checkDiag(int player){
+        for(int i=0; i<size; i++){
+            if(matrix[i][i] != player)return false;
         }
         return true;
-    }
-
-    private boolean checkRow(int row, int player) {
-        for (int col = 0; col < n; col++) {
-            if (board[row][col] != player) {
-                return false;
-            }
+    } 
+    
+    public boolean checkAntiDiag(int player){
+        for(int i=0; i<size; i++){
+            if(matrix[i][size -i -1] != player)return false;
         }
         return true;
-    }
-        
+    } 
 }
 
 /**
