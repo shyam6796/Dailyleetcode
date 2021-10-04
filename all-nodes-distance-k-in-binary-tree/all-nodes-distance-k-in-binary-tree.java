@@ -60,8 +60,9 @@ class Solution {
                     
                   //  System.out.println(level);
                 }
-           if(level >k)break;
+           
            level++;
+           if(level >k)break;
        }
       return list;  
     }
