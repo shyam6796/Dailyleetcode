@@ -12,6 +12,7 @@ class Solution {
             dp[0][i]=matrix[0][i];
             count+=dp[0][i];    
         }
+       
         
         for(int i=1;i<m;i++){
             for(int j=1;j<n;j++){
