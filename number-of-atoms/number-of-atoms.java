@@ -58,8 +58,7 @@ class Solution {
     
     public String getCount(String formula, int idx){
         StringBuilder sb = new StringBuilder();
-        sb.append(formula.charAt(idx));
-            idx++;
+       
         while(idx <formula.length()){
             if(!Character.isDigit(formula.charAt(idx))){
                 break;
