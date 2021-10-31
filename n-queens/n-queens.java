@@ -23,6 +23,7 @@ class Solution {
                     list.add(value);
                 }
                 ans.add(list);
+            return;
         }
         
         for(int col =0; col<n; col++){
