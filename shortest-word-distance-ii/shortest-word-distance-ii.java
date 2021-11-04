@@ -21,21 +21,20 @@ class WordDistance {
     }
     
     public int shortest(String word1, String word2) {
-            int min = Integer.MAX_VALUE;
+           // int min = Integer.MAX_VALUE;
         ArrayList<Integer> index1 = map.get(word1);
         ArrayList<Integer> index2 = map.get(word2);
-        for(int i: index1)
-        {
-            for(int j: index2)
-            {
-                if(Math.abs(i-j)<min)
-                {
-                    min = Math.abs(i-j);
-                }
+         int i=0 ,j=0;
+        int min =Integer.MAX_VALUE;
+        while(i<index1.size() && j< index2.size()){
+            min = Math.min(min, Math.abs(index1.get(i) -index2.get(j)));
+            if(index1.get(i) <index2.get(j)){
+                i++;
+            }else{
+                j++;
             }
         }
         return min;
-        
     }
 }
 
