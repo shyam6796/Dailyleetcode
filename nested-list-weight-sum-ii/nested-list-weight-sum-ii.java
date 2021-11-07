@@ -36,14 +36,21 @@ class Solution {
         int total =sum;
         List<NestedInteger> temp = new ArrayList<>();
         for(NestedInteger i  : nestedList){
-            if(i.isInteger()) total += i.getInteger();
+            if(i.isInteger()){
+
+                total += i.getInteger();
+            } 
             else temp.addAll(i.getList());
         }
+         //System.out.println(total);
+        
         
         if(!temp.isEmpty()){
             total += helper(temp,total);
         }
+        //System.out.println("   2 "+total);
         
+       
         return total;
     }
 }
