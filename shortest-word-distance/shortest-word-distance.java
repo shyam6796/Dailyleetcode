@@ -1,28 +1,28 @@
 class Solution {
     public int shortestDistance(String[] wordsDict, String word1, String word2) {
-            Map<String, List<Integer>> map = new HashMap<>();
-             
-            for(int i=0; i<wordsDict.length; i++){
-                if(!map.containsKey(wordsDict[i])){
-                     map.put(wordsDict[i] ,new ArrayList<>());
-                   
-                } 
-                map.get(wordsDict[i]).add(i);
+        HashMap<String,List<Integer>> map = new HashMap<>();
+        
+        for(int i=0; i<wordsDict.length; i++){
+            if(!map.containsKey(wordsDict[i])){
+                map.put(wordsDict[i],new ArrayList<>());
             }
-      
-        List<Integer> loc1, loc2;
-        loc1 =map.get(word1);
-        loc2 =map.get(word2);
-
-        int l1 = 0, l2 = 0, minDiff = Integer.MAX_VALUE;
-        while (l1 < loc1.size() && l2 < loc2.size()) {
-            minDiff = Math.min(minDiff, Math.abs(loc1.get(l1) - loc2.get(l2)));
-            if (loc1.get(l1) < loc2.get(l2)) {
-                l1++;
-            } else {
-                l2++;
+            map.get(wordsDict[i]).add(i);
+        }
+        
+        int dist=Integer.MAX_VALUE;
+        List<Integer> l1 = map.get(word1);
+        List<Integer> l2 = map.get(word2);
+        
+        int i=0, j=0;
+        
+        while(i <l1.size() && j <l2.size()){
+            dist = Math.min(dist, Math.abs(l1.get(i) - l2.get(j)));
+            if(l1.get(i) < l2.get(j)){
+                i++;
+            }else{
+                j++;
             }
         }
-        return minDiff;
+        return dist;
     }
 }
