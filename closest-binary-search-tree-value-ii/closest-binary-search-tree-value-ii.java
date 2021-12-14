@@ -15,19 +15,19 @@
  */
 class Solution {
     public List<Integer> closestKValues(TreeNode root, double target, int k) {
-         List<Integer> nums = new ArrayList();
-        inorder(root, nums);
-        Collections.sort(nums, (a,b) ->{
+       List<Integer> list = new ArrayList<>();
+        helper(root,list);
+      Collections.sort(list,(a,b)->{
             if(Math.abs(target-a) <Math.abs(target-b)) return -1;
             else return 1;
         });
-        return nums.subList(0,k);
-        
+       return list.subList(0,k);
     }
-     public void inorder(TreeNode root, List<Integer> nums) {
-        if (root == null) return;
-        inorder(root.left, nums);
-        nums.add(root.val);
-        inorder(root.right, nums);
+    
+    public void helper(TreeNode root, List<Integer> list){
+        if(root == null)return;
+        list.add(root.val);
+        helper(root.left,list);
+        helper(root.right,list);
     }
 }
