@@ -14,28 +14,24 @@
  * }
  */
 class Solution {
-    
-     List<List<Integer>> solution = new ArrayList<>();
     public List<List<Integer>> findLeaves(TreeNode root) {
-            helper(root);
-            return solution ;
+           List<List<Integer>> ans =new ArrayList<>();
+        helper(root, ans);
+         return ans;  
     }
-    
-    public int helper(TreeNode root){
-            if(root==null )return -1;
-        
-        int left= helper(root.left);
-        int right =helper(root.right);
-        int currHeight = Math.max(left, right) + 1;
-        
-         if (solution.size() == currHeight) {
-                solution.add(new ArrayList<>());
+    public int helper(TreeNode root,List<List<Integer>> ans){
+        if(root == null){
+            return -1;
         }
+        int left = helper(root.left,ans);
+        int right =helper(root.right,ans);
+        int height = Math.max(left,right)+1;
         
-        solution.get(currHeight).add(root.val);
+        if(ans.size()==height){
+            ans.add(new ArrayList<>());
+        }
+        ans.get(height).add(root.val);
         
-        return currHeight;
-            
-        
-    } 
+        return height;
+    }
 }
