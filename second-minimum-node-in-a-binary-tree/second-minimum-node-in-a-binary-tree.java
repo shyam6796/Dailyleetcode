@@ -14,23 +14,17 @@
  * }
  */
 class Solution {
-    int min1 =Integer.MAX_VALUE;
-    int min2 =Integer.MAX_VALUE;
+   
     public int findSecondMinimumValue(TreeNode root) {
          Set<Integer> set = new TreeSet<>();
          helper(root, set);
         
-        if(set.size()<2)return -1;
-        
+        int cnt=0;
         for(int i :set){
-            set.remove(i);
-            break;
+            cnt++;
+             if(cnt==2)return i;
         }
         
-         for(int i :set){
-            return i;
-            
-        }
         return -1;
     
     }
