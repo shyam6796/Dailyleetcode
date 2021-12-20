@@ -1,34 +1,29 @@
 class Solution {
     public List<List<Integer>> getFactors(int n) {
-         List<List<Integer>> result = new ArrayList<>();
-        if (n <= 3) {
-            return result;
-        }
-
-        getFactorsHelper(n, 2, new ArrayList<>(), result);
-        return result;
+        
+        List<List<Integer>> list = new ArrayList<>();
+        if(n<=3)return list;
+        
+        helper(n,2,list,new ArrayList<>());
+        return list;
     }
     
-    private void getFactorsHelper(int n, int factor, List<Integer> temp, List<List<Integer>> result) {
-        // i * i <= n helps to avoid duplicates.
-        for (int i = factor; i * i <= n; i++) {
-            if (n % i != 0) {
+    public void helper( int n, int factor,List<List<Integer>> list,List<Integer> ans){
+        
+        for(int i=factor; i*i<=n; i++){
+            if(n%i !=0){
                 continue;
+            }   
+            ans.add(i);
+            List<Integer> temp = new ArrayList<>(ans);
+            temp.add(n/i);
+            list.add(temp);
+            
+            if(i *i <=n/i){
+                helper(n/i,i,list,ans);
             }
-
-            temp.add(i);
-            List<Integer> res = new ArrayList<>(temp);
-            res.add(n / i);
-            result.add(res);
-
-            // No need to recurse if i*i > n/i as it will never enter this for loop. (Early Exit)
-            if (i * i <= n / i) {
-                getFactorsHelper(n / i, i, temp, result);
-            }
-
-            temp.remove(temp.size() - 1);
+            ans.remove(ans.size()-1);
+            
         }
     }
-    
-    
 }
