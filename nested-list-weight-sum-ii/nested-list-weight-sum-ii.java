@@ -28,29 +28,23 @@
  */
 class Solution {
     public int depthSumInverse(List<NestedInteger> nestedList) {
-          return  helper(nestedList, 0);
+            return helper(nestedList,0);
     }
     
-    public int  helper(List<NestedInteger> nestedList, int sum){
-        
+    public int helper(List<NestedInteger> nestedList, int sum){
         int total =sum;
-        List<NestedInteger> temp = new ArrayList<>();
-        for(NestedInteger i  : nestedList){
+        List<NestedInteger> temp =new ArrayList<>();
+        for(NestedInteger i : nestedList){
             if(i.isInteger()){
-
                 total += i.getInteger();
-            } 
-            else temp.addAll(i.getList());
+            }else{
+                temp.addAll(i.getList());
+            }
         }
-         //System.out.println(total);
-        
         
         if(!temp.isEmpty()){
             total += helper(temp,total);
         }
-        //System.out.println("   2 "+total);
-        
-       
         return total;
     }
 }
