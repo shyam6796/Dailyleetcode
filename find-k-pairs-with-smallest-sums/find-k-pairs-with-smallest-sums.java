@@ -9,7 +9,10 @@ class Solution {
         List<List<Integer>> result = new ArrayList<>();
         
         for(int i=0; i < k && !minHeap.isEmpty(); i++){
+           
             int[] curr = minHeap.poll();
+            
+           //  System.out.println(curr[0] + "   "+ curr[1]);
             result.add(List.of(curr[0], curr[1]));
             int nums2Idx = curr[2];
             if(nums2Idx < nums2.length - 1)
