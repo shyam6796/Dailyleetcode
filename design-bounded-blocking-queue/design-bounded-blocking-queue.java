@@ -21,10 +21,12 @@ class BoundedBlockingQueue {
         synchronized(queue){
             while(queue.size() ==0){
                 queue.wait();
-                
+                  
             }
-            queue.notify();
+             queue.notify();
            return queue.poll();
+           
+            
         }
     }
     
@@ -32,3 +34,4 @@ class BoundedBlockingQueue {
         return queue.size();
     }
 }
+
