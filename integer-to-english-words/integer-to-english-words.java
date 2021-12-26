@@ -35,21 +35,19 @@ class Solution {
         map.put(1000 , "Thousand");
         map.put(1000000,"Million");
         map.put(1000000000,"Billion");
-        
         StringBuilder sb = new StringBuilder();
+        
         while(num >0){
-            int key= map.floorKey(num);
-            int value= num/key;
-            if(key<100 && map.containsKey(key)){
+            int key = map.floorKey(num);
+            int value =num/key;    
+            if(key <100 && map.containsKey(key)){
                 sb.append(" ").append(map.get(key));
-            }
-            else if(value <100 && map.containsKey(value)){
-                sb.append(" ").append(map.get(value)).append(" ").append(map.get(key));
+            }else if(value <100 && map.containsKey(value)){
+                  sb.append(" ").append(map.get(value)).append(" ").append(map.get(key));
             }else{
                 sb.append(" ").append(numberToWords(value)).append(" ").append(map.get(key));
             }
-            num =num%key;
-            //System.out.println(key +" "+ value + " "+ num);
+            num=num%key;
         }
         return sb.toString().trim();
     }
