@@ -14,20 +14,23 @@
  * }
  */
 class Solution {
-    public List<Integer> closestKValues(TreeNode root, double target, int k) {
-       List<Integer> list = new ArrayList<>();
-        helper(root,list);
-      Collections.sort(list,(a,b)->{
-            if(Math.abs(target-a) <Math.abs(target-b)) return -1;
-            else return 1;
-        });
-       return list.subList(0,k);
+  public void inorder(TreeNode r, List<Integer> nums, Queue<Integer> heap, int k) {
+        if (r == null) 
+            return;
+                    
+        inorder(r.left, nums, heap, k);
+        heap.add(r.val);
+        if (heap.size() > k) 
+            heap.remove();
+        inorder(r.right, nums, heap, k);
     }
-    
-    public void helper(TreeNode root, List<Integer> list){
-        if(root == null)return;
-        list.add(root.val);
-        helper(root.left,list);
-        helper(root.right,list);
+
+    public List<Integer> closestKValues(TreeNode root, double target, int k) {
+        List<Integer> nums = new ArrayList();
+        
+        // init heap 'less close element first'
+        Queue<Integer> heap = new PriorityQueue<>((o1, o2) -> Math.abs(o1 - target) > Math.abs(o2 - target) ? -1 : 1);
+        inorder(root, nums, heap, k);
+        return new ArrayList<>(heap);
     }
 }
