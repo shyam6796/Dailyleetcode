@@ -9,7 +9,7 @@ class Solution {
                         stack.add(c);
                     } else {
                         if (stack.peek() == ')') {
-                            //in this case, we need to add one more ')' to get two consecutive right paren, then we could pop the one ')' and one '(' off the stack
+                          
                             insertionsNeeded++;
                             stack.pop();
                             stack.pop();
@@ -20,13 +20,13 @@ class Solution {
                     }
                 } else if (c == ')') {
                     if (stack.isEmpty()) {
-                        //in this case, we need to add one '(' before we add this ')' onto this stack
+                  
                         insertionsNeeded++;
                         stack.add('(');
                         stack.add(c);
                     } else {
                         if (stack.peek() == ')') {
-                            //in this case, we could pop the one ')' and one '(' off the stack
+                        
                             stack.pop();
                             stack.pop();
                         } else {
