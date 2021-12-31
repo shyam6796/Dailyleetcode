@@ -29,7 +29,7 @@ class Solution {
                 if(node.left !=null)queue.add(node.left);
                  if(node.right !=null)queue.add(node.right);
             }
-            if(count %2==0){
+            if(list.size() %2==0){
                 list.add(ans);
             }else{
               Collections.reverse(ans);
