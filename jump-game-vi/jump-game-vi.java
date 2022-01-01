@@ -1,22 +1,22 @@
 class Solution {
     public int maxResult(int[] nums, int k) {
-        int n = nums.length;
-        int[] score = new int[n];
-        score[0] = nums[0];
+        int reuslt=0;
         Deque<Integer> dq = new LinkedList<>();
-        dq.offerLast(0);
-        for (int i = 1; i < n; i++) {
-            // pop the old index
-            while (dq.peekFirst() != null && dq.peekFirst() < i - k) {
-                dq.pollFirst();
+        int dp[] =new int[nums.length];
+        dp[0]=nums[0];
+        dq.add(0);
+        for(int i=1; i<nums.length; i++){
+            
+            while(dq.peekFirst() != null  && dq.peekFirst() <i -k){
+                    dq.pollFirst();
             }
-            score[i] = score[dq.peek()] + nums[i];
-            // pop the smaller value
-            while (dq.peekLast() != null && score[i] >= score[dq.peekLast()]) {
+            dp[i] =dp[dq.peek()] +nums[i];
+            
+            while(dq.peekFirst() != null  && dp[dq.peekLast()] <= dp[i]){
                 dq.pollLast();
             }
             dq.offerLast(i);
         }
-        return score[n - 1];
+        return dp[dp.length-1];
     }
 }
