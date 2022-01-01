@@ -1,32 +1,29 @@
 class BoundedBlockingQueue {
-    Queue<Integer> queue; 
+    Queue<Integer> queue;
     int max;
     public BoundedBlockingQueue(int capacity) {
-        queue = new LinkedList<>();
-        max = capacity;
+        queue =new LinkedList<>();
+        max =capacity;
     }
     
     public void enqueue(int element) throws InterruptedException {
         synchronized(queue){
             while(queue.size() == max){
                 queue.wait();
-                
             }
             queue.add(element);
             queue.notify();
-        } 
+        }
+        
     }
     
     public int dequeue() throws InterruptedException {
         synchronized(queue){
-            while(queue.size() ==0){
+            while(queue.isEmpty()){
                 queue.wait();
-                  
             }
-             queue.notify();
-           return queue.poll();
-           
-            
+            queue.notify();
+            return queue.poll();
         }
     }
     
@@ -34,4 +31,3 @@ class BoundedBlockingQueue {
         return queue.size();
     }
 }
-
