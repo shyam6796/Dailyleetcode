@@ -16,7 +16,13 @@ class RandomizedCollection {
     
     public boolean remove(int val) {
          if (!idx.containsKey(val) || idx.get(val).size() == 0) return false;
-           int remove_idx = idx.get(val).iterator().next(); 
+          int remove_idx=-1;
+        for(int i : idx.get(val)){
+               remove_idx=i;
+               break;
+           }
+      
+        
             idx.get(val).remove(remove_idx);
             int last = list.get(list.size() - 1);
             list.set(remove_idx,last);
