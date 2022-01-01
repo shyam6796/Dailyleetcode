@@ -1,8 +1,9 @@
 class Solution {
     public String numberToWords(int num) {
-        TreeMap<Integer,String> map =new TreeMap<>();
         if (num == 0) return "Zero";
-    
+        TreeMap<Integer,String> map =new TreeMap<>();
+        StringBuilder sb = new StringBuilder();
+        
         map.put(0,"Zero");
         map.put(1,"One");
         map.put(2,"Two");
@@ -35,20 +36,19 @@ class Solution {
         map.put(1000 , "Thousand");
         map.put(1000000,"Million");
         map.put(1000000000,"Billion");
-        StringBuilder sb = new StringBuilder();
         
         while(num >0){
-            int key = map.floorKey(num);
-            int value =num/key;    
-            if(key <100 && map.containsKey(key)){
+            int key =map.floorKey(num);
+            int value = num/key;
+            if(key<100 && map.containsKey(key)){
                 sb.append(" ").append(map.get(key));
-            }else if(value <100 && map.containsKey(value)){
-                  sb.append(" ").append(map.get(value)).append(" ").append(map.get(key));
+            }else if(value <100 &&  map.containsKey(value)){
+                 sb.append(" ").append(map.get(value)).append(" ").append(map.get(key));
             }else{
-                sb.append(" ").append(numberToWords(value)).append(" ").append(map.get(key));
+                 sb.append(" ").append(numberToWords(value)).append(" ").append(map.get(key));
             }
-            num=num%key;
+            num =num%key;
         }
         return sb.toString().trim();
     }
-}
+}   
