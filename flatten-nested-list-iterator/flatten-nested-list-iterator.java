@@ -17,34 +17,31 @@
  */
 public class NestedIterator implements Iterator<Integer> {
     List<Integer> list = new ArrayList<>();
-    int pos=0;
-    
+    int next=0;
     public NestedIterator(List<NestedInteger> nestedList) {
-        helperNestedIterator(nestedList);
+        helper(nestedList);
     }
     
-    public void helperNestedIterator(List<NestedInteger> nestedList){
-        for(NestedInteger i : nestedList){
-            if(i.isInteger()){
-                list.add(i.getInteger());
+    public void helper(List<NestedInteger> nestedList){
+        
+        for(NestedInteger ni :nestedList){
+            if(ni.isInteger()){
+                list.add(ni.getInteger());
             }else{
-               helperNestedIterator(i.getList());
+                helper(ni.getList());
             }
-        }      
-    }
-    
-    
-
-    @Override
-    public Integer next() {
-         
-        return list.get(pos++);
+        }
         
     }
 
     @Override
+    public Integer next() {
+        return list.get(next++);
+    }
+
+    @Override
     public boolean hasNext() {
-        return pos < list.size();
+        return next < list.size();
     }
 }
 
