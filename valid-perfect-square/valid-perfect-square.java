@@ -4,19 +4,18 @@ class Solution {
       return true;
     }
 
-    long left = 2, right = num / 2, x, guessSquared;
-    while (left <= right) {
-      x = left + (right - left) / 2;
-      guessSquared = x * x;
-      if (guessSquared == num) {
-        return true;
-      }
-      if (guessSquared > num) {
-        right = x - 1;
-      } else {
-        left = x + 1;
-      }
+    long left =2, right = num/2, guess=0;
+    
+    while(left<=right){
+        long mid = left+(right-left) / 2;
+        guess = mid*mid;
+        if(guess==num)return true;
+        else if(guess > num){
+            right =mid-1;
+        }else{
+            left =mid+1;
+        }
     }
-    return false;
+        return false;
   }
 }
