@@ -27,6 +27,7 @@ class Solution {
             arr[i] =true;
             List<Integer> neg  = list.get(i);
             for(int k : neg){
+              
                 dfs(arr,k,list);
             }
     }
