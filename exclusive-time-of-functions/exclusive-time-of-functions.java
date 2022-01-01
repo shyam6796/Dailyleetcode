@@ -1,29 +1,25 @@
 class Solution {
     public int[] exclusiveTime(int n, List<String> logs) {
         Stack<Integer> stack = new Stack<>();
-        int results [] = new int[n];
-         int prev =0, time =0, id=0;
-        String  s[] =logs.get(0).split(":");
-        id = Integer.valueOf(s[0]);
-        stack.push(id);
-        time = prev = Integer.valueOf(s[2]);
+        String log[] =logs.get(0).split(":");
+        int[] ans =new int[n];
+        int time=0, last=0;
+        time =last =Integer.valueOf(log[2]);
+        stack.push(Integer.valueOf(log[0]));
         
-        for(int i =1; i<logs.size(); i++){
-            
-            s = logs.get(i).split(":");
-            id = Integer.valueOf(s[0]);
-            time =  Integer.valueOf(s[2]);
-            
-            if(s[1].equals("start")){
-                if(!stack.isEmpty()) results[stack.peek()] += time-prev;
-                    stack.push(id);
-                    prev = time;
+        
+        for(int i=1; i<logs.size(); i++){
+            log = logs.get(i).split(":");
+            time =Integer.valueOf(log[2]);
+            if(log[1].equals("start")){
+                if(!stack.isEmpty())ans[stack.peek()] += time-last;
+                last =time;
+                stack.push(Integer.valueOf(log[0]));
             }else{
-                results[stack.pop()] += time-prev+1;
-                prev = time+1;
-                
+                 ans[stack.pop()] += time-last+1;
+                last=time+1;
             }
         }
-        return results;
+        return ans;
     }
 }
