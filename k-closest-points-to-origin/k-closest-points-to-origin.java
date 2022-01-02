@@ -4,11 +4,10 @@ class Solution {
         for(int [] point : points){
             queue.add(point);
         }
-        int [][] ans = new int[k][2];
-        k--;
-        while(k>=0){
-            ans[k]=queue.poll();
-            k--;
+       int [][]ans =new int[k][2];
+        
+        for(int i=0; i<k; i++){
+            ans[i] =queue.poll();
         }
         return ans;
     }
