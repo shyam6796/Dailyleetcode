@@ -21,10 +21,10 @@ class Solution {
         
         int result = 1;
         
-        result= result + dfs(grid,i-1,j)+
-            dfs(grid,i+1,j)+
-            dfs(grid,i,j-1)+
-            dfs(grid,i,j+1);
+        result+= dfs(grid,i-1,j)+
+                 dfs(grid,i+1,j)+
+                 dfs(grid,i,j-1)+
+                 dfs(grid,i,j+1);
             
         return result;
     }
