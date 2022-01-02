@@ -5,44 +5,44 @@ class Solution {
         int number = 0;
         Stack<Integer> stack = new Stack();
         
-        while(index<=s.length()){
-              char curr = (index == s.length()) ? '#': s.charAt(index);
-            if(curr == ' '){
-                 index++;
-                continue;
-            }    
-            if(curr =='('){
+       while(index <=s.length()){
+           char c = index == s.length() ? '#': s.charAt(index);
+           if(c ==' '){
+               index++;
+               continue;
+           }else if(c == '('){
+               index++;
+               number = calculate(s);
+           }else if( c ==')'){
+               updateStack(stack,number,sign);
+               return getResult(stack);
+           }
+           if(Character.isDigit(c)){
+               index++;
+               number =number *10 +c-'0';
+           }else{
                 index++;
-                number=calculate(s);
-            }
-            else if(curr==')'){
-                updateStack(stack, number,sign);
-                return getResult(stack);
-            }
-            if(Character.isDigit(curr))number =(number * 10) + curr - '0';
-            else{
-                updateStack(stack, number,sign);
-                sign =curr;
-                number =0;
-            }
-            index++;
-        }
+               updateStack(stack,number,sign);
+               sign =c;
+               number =0;
+           }
+       }
         return getResult(stack);
-    }
-    
-      public void updateStack(Stack<Integer> stackInst, int number, char sign) {
-        switch(sign) {
-            case '+': stackInst.push(number); break;
-            case '-': stackInst.push(-number); break;
-            case '*': stackInst.push(stackInst.pop() * number); break;
-            case '/': stackInst.push(stackInst.pop() / number); break;   
+    }    
+        public void updateStack(Stack<Integer> stack, int number, char sign){
+            switch(sign){
+                case '+' : stack.push(number); break;
+                case '-' : stack.push(-number);  break;
+                case '*' : stack.push(stack.pop() * number); break;
+                case '/' : stack.push(stack.pop() / number); break;
+            }
         }
-    }
-    
-    //// Add up all number from existing Stack to get result
-    public int getResult(Stack<Integer> stackInst) {
-        int res = 0;
-        while(!stackInst.isEmpty()) res += stackInst.pop();
-        return res;
-    }
+        
+        public int getResult(Stack<Integer> stack){
+            int result =0;
+            while(!stack.isEmpty()){
+                result += stack.pop();
+            }
+            return result;
+        }
 }
