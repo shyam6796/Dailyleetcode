@@ -8,34 +8,35 @@ class Solution {
         int minimumMoves = 0;
         int[][] directions = {{1, 2}, {2, 1}, {2, -1}, {1, -2}, {-1, -2}, {-2, -1}, {-2, 1}, {-1, 2}};
         boolean[][] visited = new boolean[301][301];
-        Queue<int[]> queue = new LinkedList<> ();
+        Queue<int[]> queue = new LinkedList<>();
+        queue.add(new int[]{0,0});
+        x =Math.abs(x);
+        y =Math.abs(y);
         
-        x = Math.abs (x);
-        y = Math.abs (y);
-        visited[0][0] = true;
-        queue.offer (new int[] {0, 0});
-        
-        while (!queue.isEmpty ()) {
+        while(!queue.isEmpty()){
             ++minimumMoves;
-            int size = queue.size ();
+            int size =queue.size();
             
-            while (size-- != 0) {
-                int[] curr = queue.poll ();
+            for(int i=0; i<size; i++){
+                int[] curr =queue.poll();
                 
-                for (int[] direction : directions) {
-                    int row = Math.abs (curr[0] + direction[0]);
-                    int col = Math.abs (curr[1] + direction[1]);
-                    
-                    if (row == x && col == y) {
-                        return minimumMoves;
+                    for(int [] dir :directions){
+                        int a = Math.abs(curr[0]+dir[0]);
+                        int b = Math.abs(curr[1]+dir[1]);
+                        
+                        if(x ==a && y ==b){
+                            return minimumMoves;
+                        }
+                        if(!visited[a][b]){
+                            visited[a][b] =true;
+                            queue.add(new int[]{a,b});
+                        }
                     }
-                    else if (!visited[row][col]) {
-                        visited[row][col] = true;
-                        queue.offer (new int[] {row, col});
-                    }
-                }
             }
+            
         }
+        
+        
         
         return -1;
     }
