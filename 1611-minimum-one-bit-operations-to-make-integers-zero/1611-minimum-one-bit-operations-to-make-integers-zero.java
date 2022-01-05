@@ -5,7 +5,7 @@ class Solution {
         int bit =0;
         
         while( (1<<bit) <=n){
-            System.out.println(1<<bit);
+            //System.out.println(1<<bit);
             bit++;
         }
         // System.out.println(bit);
