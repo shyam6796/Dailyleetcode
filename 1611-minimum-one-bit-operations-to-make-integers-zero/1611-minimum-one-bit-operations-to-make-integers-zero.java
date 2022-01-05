@@ -8,7 +8,7 @@ class Solution {
             System.out.println(1<<bit);
             bit++;
         }
-         System.out.println(bit);
+        // System.out.println(bit);
         return (1<<bit)-1 -  minimumOneBitOperations(n- (1<<(bit-1)));
     }
 }
