@@ -27,25 +27,25 @@
  * }
  */
 class Solution {
-    int total=0;
+    
     public int depthSum(List<NestedInteger> nestedList) {
-         sum(nestedList,1);    
-        return total;
+        return sum(nestedList,1);    
     }
     
-     public void sum(List<NestedInteger> nestedList, int dept){
+     public int sum(List<NestedInteger> nestedList, int dept){
+         int total=0;
          List<NestedInteger> temp =new ArrayList<>();
          for(NestedInteger ni : nestedList){
              if(ni.isInteger()){
-                 total += dept *ni.getInteger();
+                 total +=dept *ni.getInteger();
              }else{
                  temp.addAll(ni.getList());
              }
          }
          
          if(!temp.isEmpty()){
-             sum(temp,dept+1);
+             total +=sum(temp,dept+1);
          }
-       
+         return total;
      }
 }
