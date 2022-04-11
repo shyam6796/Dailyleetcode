@@ -15,7 +15,8 @@ class Solution {
             if(c =='('){
                 index++;
                number=calculate(s);
-            }else if(c ==')'){
+            }
+            if(c ==')'){
                 updateStack(stack,number,sign);
                return getResult(stack);
             }
