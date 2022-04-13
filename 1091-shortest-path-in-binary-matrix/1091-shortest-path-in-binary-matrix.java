@@ -1,7 +1,7 @@
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
          if(grid ==null ||grid[0] ==null || grid[0][0]==1)return -1;
-        int [][] dirs = {{1,0},{-1,0},{0,1},{0,-1},{1,1},{-1,-1},{1,-1},{-1,1}};
+        int dirs [][] = {{1,0},{0,1},{0,-1},{-1,0},{1,1},{-1,-1},{1,-1},{-1,1}};
         int steps =0;
         int m =grid.length;
         int n =grid[0].length;
