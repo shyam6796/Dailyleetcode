@@ -3,7 +3,7 @@ class Solution {
     public List<String> removeInvalidParentheses(String s) {
         List<String> list = new ArrayList<>();
         int minRemove =helper(s);
-        System.out.println(minRemove);
+       // System.out.println(minRemove);
         helper2(list,minRemove,s);
         return list;
     }
