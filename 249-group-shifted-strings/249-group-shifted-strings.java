@@ -23,7 +23,7 @@ class Solution {
         for(int i=1; i<str.length(); i++){
             int x =str.charAt(i-1) -'a' ;
             int y =str.charAt(i) -'a';
-            int diff= x-y >0 ? x-y : x-y+26;
+            int diff= x-y >=0 ? x-y : x-y+26;
             sb.append(diff);
             sb.append("#");
         }
