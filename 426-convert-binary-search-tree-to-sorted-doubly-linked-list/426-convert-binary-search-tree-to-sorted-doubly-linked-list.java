@@ -20,14 +20,14 @@ class Node {
 */
 
 class Solution {
-        Node head;
-        Node last;
+    Node last;
+    Node first;
     public Node treeToDoublyList(Node root) {
-        if(root==null)return null;
+        if(root==null)return root;
         helper(root);
-        last.right=head;
-        last.right.left =last;
-        return head;
+        first.left =last;
+        last.right=first;
+        return first;
     }
     
     public void helper(Node root){
@@ -35,15 +35,13 @@ class Solution {
             return;
         }
         helper(root.left);
-        
         if(last ==null){
-            head=root;
-            last =root;
+            first=root;
         }else{
-            last.right=root;
             root.left=last;
+            last.right=root;
         }
-        last= root;
+        last=root;
         helper(root.right);
     }
 }
