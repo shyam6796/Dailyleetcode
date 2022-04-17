@@ -1,52 +1,44 @@
 class Solution {
-    int index=0;
+    int index =0;
     public int calculate(String s) {
-        Stack<Integer> stack =new Stack<>();
-        int number=0;
-        char sign='+';
+        Stack<Integer> stack = new Stack<>();
+        int num=0;
+        char sign ='+';
         
         while(index <=s.length()){
-            char c = index==s.length() ? '#' :s.charAt(index);
-            if(c==' '){
+            char c = s.length() == index ? '#' : s.charAt(index);
+            if(c == ' '){
                 index++;
                 continue;
-                
             }
-            if(c =='('){
+            if(Character.isDigit(c)){
+                num =num *10 + c-'0';
                 index++;
-               number=calculate(s);
-            }else if(c ==')'){
-                updateStack(stack,number,sign);
-               return getResult(stack);
             }else{
-                if(Character.isDigit(c)){
-                    number = number *10 + c-'0';
-                }else{
-                     updateStack(stack,number,sign);
-                    number=0;
-                    sign=c;
-                    
-                }
+                pushToStack(stack,sign,num);
+                num=0;
+                sign=c;
                 index++;
             }
+           
         }
-        return getResult(stack);
-    }
-    
-    public  void updateStack(Stack<Integer> stack , int number, char sign){
-        switch(sign){
-            case '+' : stack.push(number); break;
-            case '-' : stack.push(-number); break;
-            case '*' : stack.push(number * stack.pop()); break;
-            case '/' : stack.push(stack.pop() / number); break;
-        }  
+         return getResult(stack);
     }
     
     public int getResult(Stack<Integer> stack){
-        int sum =0;
+        int ans=0;
         while(!stack.isEmpty()){
-            sum += stack.pop();
+            ans += stack.pop();
         }
-        return sum;
+        return ans;
+    }
+    
+    public void pushToStack(Stack<Integer> stack, char sign, int num){
+        switch(sign){
+            case '+' : stack.push(num); break;
+            case '-' : stack.push(-num); break;
+            case '*' : stack.push(num * stack.pop()); break;
+            case '/' : stack.push(stack.pop()/num); break;
+        }
     }
 }
