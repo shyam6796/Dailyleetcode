@@ -8,7 +8,7 @@ class Solution {
         return list;
     }
      public  void  helper2(List<String> list, int minRemove, String s){
-         //if(set.contains(s))return;
+         if(set.contains(s))return;
          set.add(s);
          if(minRemove==0){
             if(helper(s)==0)list.add(s);
@@ -18,7 +18,7 @@ class Solution {
             String left =s.substring(0,i);
             String right =s.substring(i+1);
             
-            if(!set.contains(left+right)) helper2(list,minRemove-1, left+right);
+             helper2(list,minRemove-1, left+right);
         }
      }
     
