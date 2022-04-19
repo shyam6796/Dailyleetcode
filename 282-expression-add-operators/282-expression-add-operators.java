@@ -5,15 +5,16 @@ class Solution {
     int target;
     List<String> list;
     public List<String> addOperators(String num, int target) {
-        list= new ArrayList<>();
+        list =new ArrayList<>();
         nums =num.toCharArray();
-        this.target=target;
         n=nums.length;
+        this.target =target;
         ans =new char[n+n];
+        
         long value=0;
         int index=0;
         for(int i=0; i<nums.length; i++){
-            value = value*10 + nums[i]-'0';
+            value= value*10 +nums[i] -'0';
             ans[index++]=nums[i];
             helper(i+1,index,value,0);
             if(value==0){
@@ -22,27 +23,29 @@ class Solution {
         }
         return list;
     }
-    public void helper(int i, int index, long prev, long curr){
+    
+    public void helper(int i, int index, long curr, long prev){
         if(i==n){
             if(prev+curr ==target){
                 list.add(new String(ans,0,index));
             }
-            return;
+             return;
         }
-        long value=0;
-        int op =index++;
-        for(int j=i; j<n; j++){
-            value = value *10 +nums[j] -'0';
-            ans[index++]=nums[j];
-            
-            ans[op] ='+';
+            long value=0;
+            int op =index++;
+            for(int j=i; j<n; j++){
+                value= value*10 +nums[j] -'0';
+                ans[index++]=nums[j];
+                ans[op]='+';
                  helper(j+1,index,value,curr+prev);
-            ans[op] ='-';
+                ans[op]='-';
                  helper(j+1,index,-value,curr+prev);
-            ans[op] ='*';
-                 helper(j+1,index,value*prev,curr);
-             if(value==0)break;
+                ans[op]='*';
+                 helper(j+1,index,value * curr,prev);
+                 if(value==0){
+                break;
+            }
+            
         }
-        
     }
 }
