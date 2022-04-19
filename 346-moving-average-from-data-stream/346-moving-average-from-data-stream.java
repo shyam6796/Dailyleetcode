@@ -1,27 +1,21 @@
 class MovingAverage {
     List<Integer>list= new ArrayList<>();
     int n;
+    double sum=0;
     
     public MovingAverage(int size) {
         n =size;
     }
     
     public double next(int val) {
-         list.add(0,val);
-        int temp =0;
-        if(list.size()<n){ 
-             for(int i :list){
-                temp +=i;
-            }
-            return (double)temp/list.size();
-            
-        }else{
-            for(int i=0; i<n; i++){
-                temp +=list.get(i);
-            }
-            return (double)temp/n;
+        list.add(0,val);
+        if(list.size() <=n){
+            sum +=val;
+            return sum/list.size();
         }
-        
+        sum +=val;
+        sum-=list.get(n);
+        return sum/n;
     }
 }
 
