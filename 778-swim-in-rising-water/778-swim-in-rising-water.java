@@ -38,6 +38,7 @@ class Solution {
     
             }            
         }
+  
         
         
         return dis[n-1][n-1] == Integer.MAX_VALUE ? 0 : dis[n-1][n-1] ;
