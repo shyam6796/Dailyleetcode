@@ -1,28 +1,31 @@
 class Solution {
     public int maxLength(int[] ribbons, int k) {
-        int max =Integer.MIN_VALUE ;
-        for(int i :ribbons)max=Math.max(max,i);
-        return BinarySeach(ribbons,k,1,max);
-    }
-    public int BinarySeach(int[] ribbons, int k,int min, int max){
-        if(min> max)return 0;
-            int mid = min+(max-min)/2;
-            boolean flag =helper(ribbons,k,mid);
-            if(flag && !helper(ribbons,k,mid+1)) return mid;
-        if(!flag){
-            return BinarySeach(ribbons,k, min,mid-1);
-        }else{
-             return BinarySeach(ribbons,k, mid+1,max);
+        int max=0;
+        for(int i : ribbons){
+            max =Math.max(i,max);
         }
-        
+        return binarySearch(ribbons,k,1,max);
     }
-    public boolean helper(int[] ribbons, int k,int size){
-        int count=0;
-        for(int ribbon : ribbons){
-            
-            count += (ribbon/size);
+    
+    public int binarySearch(int[] ribbons, int k, int start, int end){
+        if(start>end){
+            return  0;
         }
-        
-        return count >= k;
+        int mid =start +(end-start)/2;
+        boolean flag =helper(ribbons,mid,k);
+        if(flag && !helper(ribbons,mid+1,k)){
+            return mid;
+        }else if(!flag){
+            return binarySearch(ribbons,k,start,mid-1);
+        }
+        return binarySearch(ribbons,k,mid+1,end);
+    }
+    
+    public boolean helper(int[] ribbons,int cuts,int k){
+        int sum=0;
+        for(int ribbon :ribbons){
+            sum += ribbon/cuts;
+        }
+        return sum >=k;
     }
 }
