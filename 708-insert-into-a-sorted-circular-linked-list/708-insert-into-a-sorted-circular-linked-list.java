@@ -20,34 +20,34 @@ class Node {
 class Solution {
     public Node insert(Node head, int insertVal) {
         if(head ==null){
-            head =new Node(insertVal);
-            head.next= head;
+            head =new Node(insertVal,null);
+            head.next=head;
             return head;
         }
-        boolean doInsert =false;
-        Node prev =head;
-        Node curr =head.next;
+       Node prev =head;
+       Node curr =head.next;
+       boolean doInsert =false;
         do{
-            if(prev.val <= insertVal && curr.val >= insertVal){
+            if(prev.val <= insertVal  && insertVal <= curr.val){
                 doInsert =true;
-            }else if( prev.val > curr.val && (prev.val <=insertVal ||curr.val >= insertVal)){
-                 doInsert =true;
+            }else if(prev.val > curr.val && (prev.val <= insertVal || insertVal <= curr.val)){
+                doInsert =true;
             }
+            
             if(doInsert){
-                Node newNode =new Node(insertVal,curr);
-                prev.next =newNode;
+                Node node =new Node(insertVal,curr);
+                prev.next =node;
                 return head;
             }
-            prev =prev.next;
-            curr =curr.next;
+            prev=curr;
+            curr=curr.next;
             
-        }while(prev != head);
-            
+        }while(curr !=head);
         if(!doInsert){
-             Node newNode =new Node(insertVal,curr);
-                prev.next =newNode;
+                Node node =new Node(insertVal,curr);
+                prev.next =node;
                 
-        }
-      return head;  
+            }
+        return head;
     }
 }
