@@ -23,7 +23,7 @@ class Solution {
     public int partiton(int[][] points, int left, int right){
         int pivot[] = points[left +(right-left)/2];
         int pivot_dist =dist(pivot);
-        while(left<right){
+        while(left<=right){
             if(pivot_dist <= dist(points[left])){
                 int temp[] =points[left];
                 points[left]=points[right];
@@ -33,8 +33,8 @@ class Solution {
                 left++;
             }
         }
-        if (dist(points[left]) < pivot_dist)
-            left++;
+        //if (dist(points[left]) < pivot_dist)
+          //  left++;
         
         return left;
         
