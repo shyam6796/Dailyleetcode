@@ -33,8 +33,7 @@ class Solution {
                 left++;
             }
         }
-        //if (dist(points[left]) < pivot_dist)
-          //  left++;
+        
         
         return left;
         
