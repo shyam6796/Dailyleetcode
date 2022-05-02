@@ -7,7 +7,7 @@ class Solution {
             int diff =Math.abs(x-y);
             
             time += Math.min(diff,26-diff);
-            System.out.println(diff+ "  "+ time);
+           // System.out.println(diff+ "  "+ time);
         
         }
         if(s.charAt(0) !='a'){
