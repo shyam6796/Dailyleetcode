@@ -15,7 +15,7 @@ class Solution {
                 PQ.add(next);
             }
             PQ.add(current);
-            System.out.println(PQ);
+            //System.out.println(PQ);
         }
         return PQ.size();
     }
