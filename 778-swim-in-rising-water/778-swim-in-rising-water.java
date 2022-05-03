@@ -9,11 +9,8 @@ class Solution {
             Arrays.fill(dis[i] , Integer.MAX_VALUE);
         }
         
-        PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>(){
-            @Override
-            public int compare(int[] a1 , int[] a2){
-                return Integer.compare(a1[2] , a2[2]);
-            }
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) ->{
+            return Integer.compare(a[2],b[2]);
         });
         
         pq.add(new int[]{0 , 0 ,grid[0][0]});
