@@ -26,6 +26,8 @@ class Solution {
     }
     
     public void pushStack(int num, Stack<Integer> stack, char sign){
+        
+          //System.out.println(sign + "   "+ num);
         switch(sign){
             case '+' : stack.push(num); break;
             case '-' : stack.push(-num); break;
