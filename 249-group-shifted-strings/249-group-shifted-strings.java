@@ -1,32 +1,30 @@
 class Solution {
     public List<List<String>> groupStrings(String[] strings) {
-        List<List<String>> list = new ArrayList<>();
-        Map<String,List<String>> map = new HashMap<>();
+        List<List<String>> list =new ArrayList<>();
+        HashMap<String,List<String>> map =new HashMap<>();
         
-        for(int i=0; i<strings.length; i++){
-            String s =getHash(strings[i]);
-            if(!map.containsKey(s)){
-                map.put(s,new ArrayList<>());
+        for(String s:strings){
+            String hashString =getHash(s);
+            if(!map.containsKey(hashString)){
+                map.put(hashString,new ArrayList<>());
             }
-            map.get(s).add(strings[i]);
+            map.get(hashString).add(s);
         }
-        
-        for(String s : map.keySet()){
-            list.add(map.get(s));
+        for(String s :map.keySet()){
+                list.add(map.get(s));
         }
-        
         return list;
     }
     
-    public String getHash(String str){
-        StringBuilder sb=  new StringBuilder();
-        for(int i=1; i<str.length(); i++){
-            int x =str.charAt(i-1) -'a' ;
-            int y =str.charAt(i) -'a';
-            int diff= x-y >=0 ? x-y : x-y+26;
-            sb.append(diff);
-            sb.append("#");
+    public String getHash(String s){
+        StringBuilder ans= new StringBuilder();
+        for(int i=1; i<s.length(); i++){
+            int x = s.charAt(i-1) -'0';
+            int y = s.charAt(i) -'0';
+            int diff = x-y <0 ? x-y+26 :x-y;
+            ans.append(diff);
+            ans.append("#");
         }
-        return sb.toString();
+        return ans.toString();
     }
 }
