@@ -1,45 +1,22 @@
 class Solution {
     public int[][] kClosest(int[][] points, int k) {
-        return quickSelct(points, k);
-    }
-    
-    public int[][] quickSelct(int[][] points, int k){
-        int left=0;
-        int right=points.length-1;
-        int pivot_index =right+1;
+        PriorityQueue<int[]> queue =new PriorityQueue<>((a,b) -> dist(b) -dist(a));
         
-        while(k !=pivot_index){
-            pivot_index =partiton(points,left,right);
-            
-            if(pivot_index >k){
-                right =pivot_index-1;
-            }else{
-                left =pivot_index;
+        for(int point[] : points){
+            queue.add(point);
+            if(queue.size()>k){
+                queue.poll();
             }
         }
-        return Arrays.copyOf(points,k);
-    }
-    
-    public int partiton(int[][] points, int left, int right){
-        int pivot[] = points[left +(right-left)/2];
-        int pivot_dist =dist(pivot);
-        while(left<=right){
-            if(pivot_dist <= dist(points[left])){
-                int temp[] =points[left];
-                points[left]=points[right];
-                points[right]=temp;
-                right--;
-            }else{
-                left++;
-            }
+        int d[][] =new int[k][2];
+        int index =0;
+        while(index<k){
+            d[index++]=queue.poll();
         }
-        
-        
-        return left;
+        return d;
         
     }
-    
-    public int dist(int a[]){
+    public int dist(int []a){
         return a[0]*a[0] +a[1]*a[1];
     }
 }
