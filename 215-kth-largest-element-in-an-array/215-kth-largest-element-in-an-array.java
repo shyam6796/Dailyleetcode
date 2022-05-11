@@ -9,7 +9,7 @@ class Solution {
             }
         }
         
-       
+       System.out.println(queue);
         return queue.poll();
     }
 }
