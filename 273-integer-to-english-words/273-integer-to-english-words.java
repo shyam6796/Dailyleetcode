@@ -37,20 +37,18 @@ class Solution {
         map.put(1000000,"Million");
         map.put(1000000000,"Billion");
         
-        while(num>0){
-            int key =map.floorKey(num);
+        while(num >0){
+            int key = map.floorKey(num);
             int value =num/key;
             if(key<100){
                 sb.append(" ").append(map.get(key));
             }else if(value<100 && map.containsKey(value)){
-                sb.append(" ").append(map.get(value)).append(" ").append(map.get(key));
+                 sb.append(" ").append(map.get(value)).append(" ").append(map.get(key));
             }else{
                  sb.append(" ").append(numberToWords(value)).append(" ").append(map.get(key));
             }
-            num=num%key;
+            num =num%key;
         }
-        
         return sb.toString().trim();
-        
     }
 }
