@@ -8,7 +8,7 @@ class Solution {
         for(int i=1; i<words.length; i++){
             String first=words[i-1];
             String second =words[i];
-            //if(first.length() > second.length()) 
+         
             for(int j=0; j<first.length(); j++){
                 if(j>=second.length())return false;
                 if(first.charAt(j)==second.charAt(j)){
