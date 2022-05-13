@@ -3,7 +3,7 @@ class Solution {
     public boolean possiblyEquals(String s1, String s2) {
         int m=s1.length();
         int n=s2.length();
-        dp =new Boolean[m+1][n+1][2000];
+        dp =new Boolean[41][41][2000];
          return dfs(0, 0, 0, s1, s2);
     }
     public boolean dfs (int i, int j, int diff, String s1, String s2){
