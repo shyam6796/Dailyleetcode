@@ -12,7 +12,7 @@ class Solution {
         swap(arr,i,j);
         reverse(arr,i+1);
         try {
-            return Integer.parseInt(new String(arr));
+            return Integer.valueOf(new String(arr));
         } catch (Exception e) {
             return -1;
         }
