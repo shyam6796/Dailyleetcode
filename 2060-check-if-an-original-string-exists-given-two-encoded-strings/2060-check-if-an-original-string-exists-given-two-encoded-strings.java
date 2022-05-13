@@ -1,55 +1,53 @@
 class Solution {
-    //112ms
-     public boolean possiblyEquals(String s1, String s2) {
-         return helper(s1.toCharArray(), s2.toCharArray(), 0, 0, 0, new Boolean[s1.length()+1][s2.length()+1][2001]);
-     }
-    
-     boolean helper(char[] s1, char[] s2, int i, int j, int diff, Boolean[][][] dp) {
-         if(i == s1.length && j == s2.length) {
-             return diff == 0;
-         }
-         
-         if(dp[i][j][diff+1000] != null)
-             return dp[i][j][diff+1000];
-         
-         // if both i and j are at the same location and chars are same then simply increment both pointers
-         if(i < s1.length && j < s2.length && diff == 0 && s1[i] == s2[j]) {
-             if(helper(s1, s2, i+1, j+1, diff, dp)) {
-                 return dp[i][j][diff+1000] = true;
-             }
-         }
-         
-         // if s1[i] is literal and diff > 0 then increment i and decrement diff by 1
-         if(i < s1.length && !Character.isDigit(s1[i]) && diff > 0 && helper(s1, s2, i+1, j, diff-1, dp)) {
-             return dp[i][j][diff+1000] = true;
-         }
-         
-         // if s2[j] is literal and diff < 0 then increment j and increment diff by 1
-         // as we are done with the current jth char
-         if(j < s2.length && !Character.isDigit(s2[j]) && diff < 0 && helper(s1, s2, i, j+1, diff+1, dp)) {
-             return dp[i][j][diff+1000] = true;
-         }
-         
-         // wildcard matching in s1
-         // if s1 contains l123
-         // then need to check with val as 1 then val as 12 and val as 123
-         for(int k = i, val = 0; k < i + 4 && k < s1.length && Character.isDigit(s1[k]); k++) {
-             val = val * 10 + s1[k] -'0';
-             if(helper(s1, s2, k+1, j, diff-val, dp)) {
-                 return dp[i][j][diff+1000] = true;
-             }
-         }
-         
-         // wildcard matching in s2
-         // if s2 contains l123
-         // then need to check with val as 1 then val as 12 and val as 123
-         for(int k = j, val = 0; k < j + 4 && k < s2.length && Character.isDigit(s2[k]); k++) {
-             val = val * 10 + s2[k] -'0';
-             if(helper(s1, s2, i, k+1, diff+val, dp)) {
-                 return dp[i][j][diff+1000] = true;
-             }
-         }
-         
-         return dp[i][j][diff+1000] = false;
-     }
+    Boolean dp[][][];
+    public boolean possiblyEquals(String s1, String s2) {
+        int m=s1.length();
+        int n=s2.length();
+        dp =new Boolean[m+1][n+1][2001];
+         return dfs(0, 0, 0, s1, s2);
+    }
+    public boolean dfs (int i, int j, int diff, String s1, String s2){
+        if(i>=s1.length() && j >= s2.length() && diff == 0)return true;
+        
+        if(dp[i][j][diff+1000] != null)return dp[i][j][diff+1000];
+        
+        boolean res =false;
+        
+        if(i<s1.length()){
+            if(Character.isDigit(s1.charAt(i))){
+                int count=0;
+                 int value = 0;
+                while(i+count<s1.length() && count <3 &&Character.isDigit(s1.charAt(i+count))){
+                    value =value*10 +s1.charAt(i+count) -'0';
+                    count++;
+                    if(dfs(i+count,j,diff-value,s1,s2))res=true;
+                }
+                
+            }else{
+                if(diff>0){
+                    if(dfs(i+1,j,diff-1,s1,s2))res=true;
+                }else if(diff == 0 && j < s2.length() && s1.charAt(i) == s2.charAt(j)){
+                    if(dfs(i+1,j+1,diff,s1,s2))res=true;
+                }
+            }
+        }
+        
+        if(j<s2.length()){
+            if(Character.isDigit(s2.charAt(j))){
+                int count=0;
+                 int value = 0;
+                while(j+count<s2.length() && count <3 &&Character.isDigit(s2.charAt(j+count))){
+                    value =value*10 +s2.charAt(j+count) -'0';
+                    count++;
+                    if(dfs(i,j+count,diff+value,s1,s2))res=true;
+                }
+                
+            }else{
+                if(diff<0){
+                    if(dfs(i,j+1,diff+1,s1,s2))res=true;
+                }
+            }
+        }
+         return dp[i][j][diff + 1000] = res;
+    }
 }
