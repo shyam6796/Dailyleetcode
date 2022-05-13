@@ -15,7 +15,7 @@ class Solution {
 
         // Build the result and check for overflow/underflow condition
         while (i < str.length() && str.charAt(i) >= '0' && str.charAt(i) <= '9') {
-            if (result > Integer.MAX_VALUE / 10 ||
+            if (result >Integer.MAX_VALUE / 10 ||
                     (result == Integer.MAX_VALUE / 10 && str.charAt(i) - '0' > Integer.MAX_VALUE % 10)) {
                 return (sign == 1) ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
