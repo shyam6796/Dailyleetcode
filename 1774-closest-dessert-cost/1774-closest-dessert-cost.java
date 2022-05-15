@@ -16,7 +16,7 @@ class Solution
             closCost =Math.min(closCost,currCost);
         }
         
-        if(currCost<=targert &&   currIndex < toppingCosts.length){
+        if(currCost<targert &&   currIndex < toppingCosts.length){
            helper(toppingCosts,currIndex+1,currCost, targert); 
            helper(toppingCosts,currIndex+1,currCost +toppingCosts[currIndex], targert); 
            helper(toppingCosts,currIndex+1,currCost + 2*toppingCosts[currIndex], targert);  
