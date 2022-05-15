@@ -13,7 +13,7 @@ class Solution {
 
         int ans = 0;
         for (int i = 1; i <= t; i++) {
-            System.out.println(groups[i-1]);
+           
             ans += Math.min(groups[i-1], groups[i]);
         }
         return ans;
