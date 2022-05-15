@@ -1,14 +1,15 @@
 class CustomStack {
-    Stack<Integer> stack;
     int cap;
+    Stack<Integer> stack;
     public CustomStack(int maxSize) {
-        stack=new Stack<>();
-        cap = maxSize;
+        stack =new Stack<>();
+        cap =maxSize;
     }
     
     public void push(int x) {
-        if(cap==stack.size()) return;
-        stack.push(x);
+        if(stack.size() ==cap)return;
+            stack.push(x);
+        
     }
     
     public int pop() {
@@ -17,18 +18,18 @@ class CustomStack {
     }
     
     public void increment(int k, int val) {
-
-      Stack<Integer> reverseStack = new Stack<>();
-        while(!stack.isEmpty()) {
-            reverseStack.push(stack.pop());
+        Stack<Integer> buffer =new Stack<>();
+        while(!stack.isEmpty() ){
+            buffer.push(stack.pop());
         }
-        while(!reverseStack.isEmpty()) {
-            if(k != 0) {
-                stack.push(reverseStack.pop() + val);
+        while(!buffer.isEmpty()){
+            if(k>0){
+                stack.push(val+buffer.pop());
                 k--;
-            } else {
-                stack.push(reverseStack.pop());
+            }else{
+                stack.push(buffer.pop());
             }
+            
         }
     }
 }
