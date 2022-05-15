@@ -2,8 +2,7 @@ class Solution {
     public String reformatDate(String date) {
         Map<String,String> map =new HashMap<>();
         String [] month = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
-        
-       String[] data = {"01","02","03","04","05","06","07","08","09","10","11","12"};
+        String[] data = {"01","02","03","04","05","06","07","08","09","10","11","12"};
         for(int i=0; i<12; i++){
             map.put(month[i],data[i]);
         }
