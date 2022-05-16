@@ -10,6 +10,7 @@ class Solution {
         for(int i =index; i<s.length(); i++){
             curr = curr*10 +s.charAt(i) -'0';
             if((prev ==-1 || prev-curr ==1) && solve(i+1,curr,s,k+1)) return true;
+            
         }
         return false;
     }
