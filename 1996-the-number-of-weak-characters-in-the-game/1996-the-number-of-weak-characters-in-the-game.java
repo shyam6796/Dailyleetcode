@@ -6,13 +6,13 @@ class Solution {
     });
     
     int weakCharsCount = 0;
-    int mmax = 0;
+    int max = 0;
     
     for (int i = 0; i < properties.length; i++) {
-        if(properties[i][1] < mmax) 
-            weakCharsCount++;
-        
-        mmax = Math.max(mmax, properties[i][1]);
+            if(properties[i][1] <max){
+                weakCharsCount++;
+            }
+        max =Math.max(properties[i][1],max);
     }
     
     return weakCharsCount;
