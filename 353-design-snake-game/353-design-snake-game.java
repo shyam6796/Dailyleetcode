@@ -56,11 +56,6 @@ class SnakeGame {
         path.addFirst(currentPosition);        
         pathHash.add(currentPosition);
         
-        System.out.println("length "+length);
-        System.out.println("Queue:");
-        System.out.println(path);
-        System.out.println("Hash:");
-        System.out.println(pathHash);
         return length;    
     }
     
