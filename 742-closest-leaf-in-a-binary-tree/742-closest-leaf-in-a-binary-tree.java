@@ -1,17 +1,15 @@
 class Solution {
+      Queue<TreeNode> queue = new LinkedList();
+        Set<TreeNode> seen = new HashSet();
+    int k;
     public int findClosestLeaf(TreeNode root, int k) {
+        this.k=k;
         Map<TreeNode, List<TreeNode>> graph = new HashMap();
         dfs(graph, root, null);
 
-        Queue<TreeNode> queue = new LinkedList();
-        Set<TreeNode> seen = new HashSet();
+      
 
-        for (TreeNode node: graph.keySet()) {
-            if (node != null && node.val == k) {
-                queue.add(node);
-                seen.add(node);
-            }
-        }
+        
 
         while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
@@ -38,5 +36,9 @@ class Solution {
             dfs(graph, node.left, node);
             dfs(graph, node.right, node);
         }
+        if (node != null && node.val == k) {
+                queue.add(node);
+                seen.add(node);
+            }
     }
 }
