@@ -1,44 +1,55 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-      Queue<TreeNode> queue = new LinkedList();
-        Set<TreeNode> seen = new HashSet();
-    int k;
     public int findClosestLeaf(TreeNode root, int k) {
-        this.k=k;
-        Map<TreeNode, List<TreeNode>> graph = new HashMap();
-        dfs(graph, root, null);
-
-      
-
+        Queue<TreeNode> queue =new LinkedList<>();
+        Map<TreeNode,List<TreeNode>> map =new HashMap<>();
+        Set<TreeNode> set =new HashSet<>();
+        buildGraph(root,null,map,k,queue);
+        set.add(queue.peek());
         
-
-        while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            if (node != null) {
-                if (graph.get(node).size() <= 1)
-                    return node.val;
-                for (TreeNode nei: graph.get(node)) {
-                    if (!seen.contains(nei)) {
-                        seen.add(nei);
-                        queue.add(nei);
-                    }
+        while(!queue.isEmpty()){
+            TreeNode curr =queue.poll();
+            if(curr !=null){
+                if(map.get(curr).size() <=1){
+                return curr.val;
+            }
+            for(TreeNode n :map.get(curr)){
+                if(!set.contains(n)){
+                    queue.add(n);
+                    set.add(n);
                 }
             }
-        }
-        throw null;
-    }
-
-    public void dfs(Map<TreeNode, List<TreeNode>> graph, TreeNode node, TreeNode parent) {
-        if (node != null) {
-            if (!graph.containsKey(node)) graph.put(node, new LinkedList<TreeNode>());
-            if (!graph.containsKey(parent)) graph.put(parent, new LinkedList<TreeNode>());
-            graph.get(node).add(parent);
-            graph.get(parent).add(node);
-            dfs(graph, node.left, node);
-            dfs(graph, node.right, node);
-        }
-        if (node != null && node.val == k) {
-                queue.add(node);
-                seen.add(node);
             }
+        }
+        return 0;
+    }
+    
+    public void buildGraph(TreeNode root, TreeNode parent, Map<TreeNode,List<TreeNode>> map, int k, Queue<TreeNode> queue){
+        if(root !=null){
+            if(!map.containsKey(root)) map.put(root,new ArrayList<>());
+            if(!map.containsKey(parent)) map.put(parent, new ArrayList<>());
+            map.get(root).add(parent);
+            map.get(parent).add(root);
+            buildGraph(root.left,root,map,k,queue);
+            buildGraph(root.right,root,map,k,queue);
+            
+            if(root.val ==k){
+                queue.add(root);
+            }
+        }
     }
 }
