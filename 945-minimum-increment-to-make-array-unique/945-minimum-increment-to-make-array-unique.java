@@ -7,9 +7,9 @@ class Solution {
       int current = nums[i];
       int prev = nums[i - 1];
       if (current <= prev) {
-        int addition = 1 + prev - current;
-        count += addition;
-        nums[i] += addition;
+        int add =1+ prev-current;
+        count +=add;
+        nums[i] +=add;
       }
     }
 
