@@ -36,7 +36,7 @@ class Solution {
         b =(int) x & 255;
          x>>=8;
         a =(int) x & 255;
-         x>>=8;
+        
         int len =0;
         while(count >0){
             count /=2;
