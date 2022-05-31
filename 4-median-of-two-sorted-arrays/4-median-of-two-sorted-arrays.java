@@ -18,7 +18,7 @@ class Solution {
                 j++;
             }
              medianPointer++;
-            System.out.println(prev1 +"  "+ prev2 +"  " +i+"  "+ j+ " "+ medianPointer );
+          //  System.out.println(prev1 +"  "+ prev2 +"  " +i+"  "+ j+ " "+ medianPointer );
            
         }
         
