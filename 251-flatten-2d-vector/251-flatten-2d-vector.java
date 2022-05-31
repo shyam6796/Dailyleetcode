@@ -14,7 +14,7 @@ class Vector2D {
         }
         int ans = vec[i][j];
         if (j<vec[i].length-1) {
-            ++j;
+            j++;
         }
         else {
             ++i;
@@ -31,7 +31,7 @@ class Vector2D {
             if (i==vec.length) {
                 return false;
             }
-            if (j<vec[i].length) {
+            else if (j<vec[i].length) {
                 return true;
             }
             else {
