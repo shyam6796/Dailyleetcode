@@ -8,7 +8,7 @@ class Solution {
         while(i<slots1.length && j <slots2.length){
             int start =Math.max(slots1[i][0],slots2[j][0]);
             int end = Math.min(slots1[i][1],slots2[j][1]);
-            System.out.println(start +"  "+ end);
+            //System.out.println(start +"  "+ end);
             if(end -start >=duration){
                 list.add(start);
                 list.add(start+duration);
