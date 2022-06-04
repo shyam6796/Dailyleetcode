@@ -9,9 +9,9 @@ class Solution {
         
         
         int max = 0;
-        for(Map.Entry<Integer,Integer> entry: map.entrySet()) {
-            max = Math.max(max, entry.getValue());
-            map.put(entry.getKey(), max);
+        for(int i :map.keySet()){
+            max = Math.max(max,map.get(i));
+            map.put(i,max);
         }
          //System.out.println(map);
         
