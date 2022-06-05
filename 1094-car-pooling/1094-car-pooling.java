@@ -8,7 +8,7 @@ class Solution {
             int endPassenger = timestamp.getOrDefault(trip[2], 0) - trip[0];
             timestamp.put(trip[2], endPassenger);
         }
-        System.out.println(timestamp);
+        //System.out.println(timestamp);
         int usedCapacity = 0;
         for (int passengerChange : timestamp.values()) {
             usedCapacity += passengerChange;
