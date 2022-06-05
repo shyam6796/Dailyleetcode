@@ -15,35 +15,25 @@
  */
 class Solution {
     int count=0;
+    Map<Integer,Integer> map =new HashMap<>();
     public int pathSum(TreeNode root, int targetSum) {
-        Queue<TreeNode> queue =new LinkedList<>();
-        helepr(root,queue);
-        //System.out.println(queue);
-        int size =queue.size();
-        for(int i=0; i<size; i++){
-            TreeNode curr=queue.poll();
-            solve (curr,0,targetSum);
-        }
-        return count;
-    }
-    public void helepr(TreeNode root, Queue<TreeNode> queue){
-        if(root ==null){
-            return;
-        }
-        queue.add(root);
-        helepr(root.left,queue);
-        helepr(root.right,queue);
+      prepOrder(root,0,targetSum);
+      return count;
     }
     
-    public void solve(TreeNode root,int sum, int targetSum){
+    public void prepOrder(TreeNode root, int sum, int targetSum){
+        if(root==null) return;
+        
         sum +=root.val;
-        //System.out.println(sum);
-       // if(targetSum >0 && sum >targetSum )return;
-        //if(targetSum <0 && sum <targetSum )return;
         if(sum==targetSum){
             count++;
         }
-        if(root.left !=null)solve(root.left,sum,targetSum);
-        if(root.right !=null)solve(root.right,sum,targetSum);
+        count +=map.getOrDefault(sum-targetSum,0);
+        map.put(sum,map.getOrDefault(sum,0)+1);
+        prepOrder(root.left,sum,targetSum);
+        prepOrder(root.right,sum,targetSum);
+        
+        map.put(sum,map.get(sum)-1);
+        
     }
 }
