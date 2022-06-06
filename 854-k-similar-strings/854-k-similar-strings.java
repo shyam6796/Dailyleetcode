@@ -1,6 +1,6 @@
 class Solution {
     public int kSimilarity(String s1, String tar) {
-        Queue<String> q = new ArrayDeque<>();
+        Queue<String> q = new LinkedList<>();
         q.add(s1);
         
         int lvl = 0;
