@@ -23,7 +23,7 @@ class Solution {
                         sb.setCharAt(j, s.charAt(i));
                         
 						//A small optimization.
-                        if(sb.toString().equals(tar))return lvl+1;
+                       // if(sb.toString().equals(tar))return lvl+1;
                         
                         q.add(sb.toString());
                     }
