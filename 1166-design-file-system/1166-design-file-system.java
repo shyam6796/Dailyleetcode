@@ -13,8 +13,8 @@ class FileSystem {
         for(int i=1; i<dict.length-1; i++){
             String token =dict[i];
             sb.append(token);
-            String parent = sb.toString();
-            if(!map.containsKey(parent)) return false; 
+           
+            if(!map.containsKey(sb.toString())) return false; 
             sb.append("/");
         }
         map.put(path,value);
