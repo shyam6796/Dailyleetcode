@@ -4,11 +4,12 @@ class Solution {
         q.add(s1);
         
         int lvl = 0;
+        if(s1.equals(tar))return lvl;
         while(q.size() > 0){
             int size = q.size();
             while(size-- > 0){
                 String s = q.remove();
-                if(s.equals(tar))return lvl;
+                
                 
                 
                 int i = 0;
