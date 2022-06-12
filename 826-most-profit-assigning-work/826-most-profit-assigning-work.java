@@ -1,25 +1,24 @@
 class Solution {
-    public int maxProfitAssignment(int[] difficulty, int[] profit, int[] workers) {
-        TreeMap<Integer,Integer> map =new TreeMap<>();
-        
+    public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
+           TreeMap<Integer,Integer> map =new TreeMap<>();
+            
         for(int i=0; i<profit.length; i++){
             map.put(difficulty[i],Math.max(profit[i], map.getOrDefault(difficulty[i], 0)));
         }
-        //System.out.println(map);
         
+        int maxProift =0;
+        int max=0;
         
-        int max = 0;
         for(int i :map.keySet()){
-            max = Math.max(max,map.get(i));
+            max =Math.max(map.get(i),max);
             map.put(i,max);
         }
-         //System.out.println(map);
         
-        int prof=0;        
-        for(int worker : workers){
-            if(map.floorKey(worker) !=null) prof += map.get(map.floorKey(worker));
+        for(int w :worker){
+            if( map.floorKey(w) ==null)continue;
+            maxProift += map.get(map.floorKey(w));
         }
         
-        return prof;
+        return maxProift; 
     }
 }
