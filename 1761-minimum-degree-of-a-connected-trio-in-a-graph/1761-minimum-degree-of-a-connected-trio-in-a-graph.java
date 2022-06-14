@@ -1,27 +1,29 @@
 class Solution {
     public int minTrioDegree(int n, int[][] edges) {
-         HashSet<Integer>[] adjList = new HashSet[n+1];
+        HashMap<Integer,Set<Integer>> map =new HashMap<>();
         
-        for(int i = 1; i <=n; i++)
-            adjList[i] = new HashSet<>();
-        
-        for(int[] edge: edges) {
-            adjList[edge[0] ].add(edge[1] );
-            adjList[edge[1] ].add(edge[0]);
+        for(int i=1; i<=n; i++){
+            map.put(i,new HashSet<>());
         }
         
-        int min = Integer.MAX_VALUE;
+        for(int edge[] : edges){
+            map.get(edge[0]).add(edge[1]);
+            map.get(edge[1]).add(edge[0]);
+        }
         
-        for(int i = 1; i <= n; i++) {
-            for(int j = i + 1; j <= n; j++) {
-                if(!adjList[i].contains(j)) // optimisation 
-                    continue;
-                for(int k = j + 1; k <= n; k++)
-                     if(adjList[j].contains(k) && adjList[i].contains(k))
-                         min = Math.min(min, adjList[i].size() + adjList[j].size() + adjList[k].size() - 6);
+        int min =Integer.MAX_VALUE;
+        
+        for(int i=1; i<=n; i++){
+            for(int j=i+1; j<=n; j++){
+                if(!map.get(i).contains(j)) continue;
+                
+                for(int k=j+1; k<=n; k++){
+                    if(map.get(j).contains(k) && map.get(k).contains(i)){
+                        min = Math.min(map.get(i).size() +map.get(j).size() + map.get(k).size() -6, min);
+                    }
+                }
             }
         }
-        
-        return min == Integer.MAX_VALUE? -1: min;
+        return min ==Integer.MAX_VALUE ? -1 :min;
     }
 }
