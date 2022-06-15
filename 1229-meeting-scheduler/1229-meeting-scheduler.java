@@ -10,7 +10,7 @@ class Solution {
             if(end-start >=duration){
                 list.add(start);
                 list.add(start+duration);
-                break;
+                return list;
             }else{
                 if(slots1[i][1] > slots2[j][1]){
                     j++;
