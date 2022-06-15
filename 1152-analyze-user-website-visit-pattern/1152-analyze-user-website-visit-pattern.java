@@ -10,7 +10,7 @@ class Solution {
             list.add(log);
         }
         
-        Collections.sort(list, (a,b) ->  Integer.valueOf(a.get(1)) -Integer.valueOf(b.get(1)));
+     Collections.sort(list, (a,b) ->  Integer.valueOf(a.get(1)) -Integer.valueOf(b.get(1)));
         
         Map<String,List<String>> map =new HashMap<>();
         
