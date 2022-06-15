@@ -1,39 +1,37 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-             HashSet<Character>[] rows = new HashSet[9];
-        HashSet<Character>[] cols = new HashSet[9];
-        HashSet<Character>[] boxes = new HashSet[9];
-        for (int r = 0; r < 9; r++) {
-            rows[r] = new HashSet<Character>();
-            cols[r] = new HashSet<Character>();
-            boxes[r] = new HashSet<Character>();
-        }
-            for(int i =0; i<9; i++){
-                for(int j=0; j<9; j++){
-                    char val = board[i][j];
-                    if(val == '.')continue;
-                    
-                    if(rows[i].contains(val)){
-                        return false;
-                    }
-                    rows[i].add(val);
-                    
-                    if(cols[j].contains(val)){
-                        return false;
-                    }
-                    cols[j].add(val);
-                    
-                    int indx =(i/3) *3 +j/3;
-                    
-                    if(boxes[indx].contains(val)){
-                        return false;
-                    }
-                    boxes[indx].add(val);
-                    
-                    
-                    }
-                
+        Set<Integer>[] col =new HashSet[9];
+         Set<Integer>[] row =new HashSet[9];
+         Set<Integer>[] boxs =new HashSet[9];
+       
+        for(int i=0; i<9; i++){
+            col[i]=(new HashSet<>());
+            row[i]=(new HashSet<>());
+            boxs[i]=(new HashSet<>());
             }
+        
+        for(int i=0; i<9; i++){
+            for(int j=0; j<9; j++){
+                if(board[i][j] =='.')continue;
+                 if(col[i].contains(board[i][j] -'0')){
+                    return false;
+                }else{
+                     col[i].add(board[i][j] -'0');
+                 }
+                if(row[j].contains(board[i][j] -'0')){
+                    return false;
+                }else{
+                     row[j].add(board[i][j] -'0');
+                 }
+                int box = (i/3)*3 +j/3;
+                if(boxs[box].contains(board[i][j] -'0')){
+                    return false;
+                }else{
+                     boxs[box].add(board[i][j] -'0');
+                 }
+            }
+        }
+        
         return true;
     }
 }
