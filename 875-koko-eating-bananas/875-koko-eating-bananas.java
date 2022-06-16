@@ -3,6 +3,7 @@ class Solution {
         int start=1;
         int end=1;
         for(int i :piles){
+            start =Math.min(start,i);
            end= Math.max(i,end);
             
         }
