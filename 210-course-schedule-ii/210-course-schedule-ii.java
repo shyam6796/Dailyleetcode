@@ -1,52 +1,49 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-       Map<Integer,List<Integer>> map = new HashMap<>();
-        Set<Integer> inPath =new HashSet<>();
+        List<List<Integer>> list =new ArrayList<>();
+        Set<Integer> path =new HashSet<>();
         List<Integer> order =new ArrayList<>();
+        boolean visited [] = new boolean[numCourses];
         
         for(int i=0; i<numCourses; i++){
-            map.put(i, new ArrayList<>());
+            list.add(new ArrayList<>());
         }
         
-        for(int prerequisite[]  : prerequisites){
-                map.get(prerequisite[1]).add(prerequisite[0]);
+        for(int preq[] : prerequisites){
+            list.get(preq[1]).add(preq[0]);
         }
-        boolean[]visited = new boolean[numCourses];
         
         for(int i=0; i<numCourses; i++){
-            if(!visited[i]){
-                DFS(i,visited,order,map,inPath);
-            }    
+                if(!visited[i]){
+                    DFS(i,list,path,order,visited);
+                }
         }
-        if(order.size()==numCourses){
-            int arr[] =new int[order.size()];
-            for(int i=order.size()-1; i>=0; i--){
-                arr[i]=order.get(i);
-            }
-            return arr;
-        }else{
+        
+        if(order.size() !=numCourses){
             return new int[0];
         }
         
+        int result [] =new int[order.size()];
+        for(int i =0; i<order.size(); i++){
+            result[i] =order.get(i);
+        }
+        
+        return result;
     }
     
-    public void DFS(int node,boolean [] visited , List<Integer> order,  Map<Integer,List<Integer>> map,Set<Integer> inPath){
+    public void DFS(int node, List<List<Integer>> list, Set<Integer> path, List<Integer> order, boolean [] visited){
         visited[node] =true;
-        inPath.add(node);
-        
-        //if(map.get(node) ==null)return;
-        for(int neg : map.get(node)){
-          
-            if(!inPath.contains(neg)){
+        path.add(node);
+        for(int neg :list.get(node)){
+            if(!path.contains(neg)){
                 if(!visited[neg]){
-                    DFS(neg,visited,order,map,inPath);
+                    DFS(neg,list,path,order,visited);
                 }
             }else{
                 order.add(0,neg);
-                break;
             }
         }
+        path.remove(node);
         order.add(0,node);
-        inPath.remove(node);
     }
 }
