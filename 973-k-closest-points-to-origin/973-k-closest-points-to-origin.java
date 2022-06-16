@@ -1,40 +1,30 @@
 class Solution {
     public int[][] kClosest(int[][] points, int k) {
-     return quickSelect(points,k);
-        
-    }
-    public int[][] quickSelect(int[][] points, int k){
-        int left=0;
-        int right=points.length-1;
-        int pivot =points.length;
-        while(pivot !=k){
-            pivot =partiton(points,left,right);
-            if(pivot >k){
-                right=pivot-1;
-            }else{
-                left=pivot;
-            }
-        }
-        return Arrays.copyOf(points,k);
-    }
+        int[][] results = new int[k][2];
+		PriorityQueue<int[]> maxHeap = new PriorityQueue<int[]>((a,b) -> distance(b) - distance(a));
+
+		// loop through each point
+		for(int[] point: points) {
+			// add the point to the max heap
+			maxHeap.add(point);
+			// check if the max heap has too many points
+			if(maxHeap.size() > k) {
+				 maxHeap.remove();
+			}
+		}
+
+		// add the points from the max heap into the 2-D array
+		int size = maxHeap.size();
+		for(int i = 0; i < size; i++) {
+			results[i] = maxHeap.remove();
+		}
+		return results;
+	}
+
+	// method to calculate the distance 
+	private int distance(int[] a) {
+		int x = a[0], y = a[1];
+		return x*x + y*y;
+	}
     
-    public int partiton(int[][] points, int left, int right){
-        int[] pivot =points[left +(right-left)/2];
-        int pivot_dist =dist(pivot);
-        while(left<=right){
-            if(dist(points[left]) >= pivot_dist){
-                int temp[] =points[left];
-                points[left]=points[right];
-                points[right]=temp;
-                right--;
-            }else{
-                left++;
-            }
-        }
-        return left;
-    }
-    
-    public int dist(int []a){
-        return a[0]*a[0] +a[1]*a[1];
-    }
 }
