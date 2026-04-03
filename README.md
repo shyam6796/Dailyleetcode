@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/shyam6796/Dailyleetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0011-container-with-most-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0042-trapping-rain-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/shyam6796/Dailyleetcode/tree/main/0283-move-zeroes/) | Easy |
 ## String
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -74,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/shyam6796/Dailyleetcode/tree/main/0007-reverse-integer/) | Medium |
 | [0070-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0070-climbing-stairs/) | Easy |
+| [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
