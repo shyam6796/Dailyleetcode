@@ -4,8 +4,8 @@ class Solution {
 
         while(x !=0){
              if(ans > Integer.MAX_VALUE/10 || ans <Integer.MIN_VALUE/10)return 0;
-            if(x ==Integer.MAX_VALUE%10  && ans >=Integer.MAX_VALUE%10)return 0;
-            if(x ==Integer.MIN_VALUE%10 && ans <= Integer.MIN_VALUE%10)return 0;
+            if(x >Integer.MAX_VALUE%10  && ans ==Integer.MAX_VALUE%10)return 0;
+            if(x <Integer.MIN_VALUE%10 && ans == Integer.MIN_VALUE%10)return 0;
             ans =ans*10 + x%10;
             x=x/10;
         }
