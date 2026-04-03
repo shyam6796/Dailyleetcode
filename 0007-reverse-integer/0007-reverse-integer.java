@@ -3,9 +3,9 @@ class Solution {
         int ans =0;
 
         while(x !=0){
-             if(ans > Integer.MAX_VALUE/10 || ans <Integer.MIN_VALUE/10)return 0;
-            if(x >Integer.MAX_VALUE%10  && ans ==Integer.MAX_VALUE%10)return 0;
-            if(x <Integer.MIN_VALUE%10 && ans == Integer.MIN_VALUE%10)return 0;
+            if(ans > Integer.MAX_VALUE/10 || ans <Integer.MIN_VALUE/10)return 0;
+            if(x%10 >Integer.MAX_VALUE%10  && ans ==Integer.MAX_VALUE)return 0;
+            if(x%10 <Integer.MIN_VALUE%10 && ans == Integer.MIN_VALUE)return 0;
             ans =ans*10 + x%10;
             x=x/10;
         }
