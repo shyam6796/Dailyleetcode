@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0055-jump-game](https://github.com/shyam6796/Dailyleetcode/tree/main/0055-jump-game/) | Medium |
 | [0070-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0070-climbing-stairs/) | Easy |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shyam6796/Dailyleetcode/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
 ## Array
 | Problem Name | Difficulty |
@@ -60,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0011-container-with-most-water/) | Medium |
 | [0055-jump-game](https://github.com/shyam6796/Dailyleetcode/tree/main/0055-jump-game/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shyam6796/Dailyleetcode/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -105,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shyam6796/Dailyleetcode/tree/main/1356-sort-integers-by-the-number-of-1-bits/) | Easy |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shyam6796/Dailyleetcode/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
