@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/shyam6796/Dailyleetcode/tree/main/0055-jump-game/) | Medium |
 | [0070-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/shyam6796/Dailyleetcode/tree/main/0072-edit-distance/) | Medium |
+| [0118-pascals-triangle](https://github.com/shyam6796/Dailyleetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shyam6796/Dailyleetcode/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
 ## Array
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/shyam6796/Dailyleetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/shyam6796/Dailyleetcode/tree/main/0057-insert-interval/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/shyam6796/Dailyleetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0118-pascals-triangle](https://github.com/shyam6796/Dailyleetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/shyam6796/Dailyleetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/shyam6796/Dailyleetcode/tree/main/0283-move-zeroes/) | Easy |
