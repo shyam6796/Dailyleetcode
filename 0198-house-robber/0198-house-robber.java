@@ -1,17 +1,11 @@
 class Solution {
-    Integer memo[];
     public int rob(int[] nums) {
-        memo =new Integer[nums.length+1];
-        return helper(nums,0);
-    }
-    public int helper(int [] nums, int i){
-        if(i >= nums.length)return 0;
-        
-        if(memo[i] !=null)return memo[i];
+        int dp[] = new int[nums.length+1];
+        dp[1] =nums[0];
 
-        int take = helper(nums, i+2) + nums[i];
-        int skip =helper(nums, i+1);
-
-        return memo[i] = Math.max(take, skip);
+        for(int i=1; i< nums.length; i++){
+            dp[i+1] = Math.max(dp[i], dp[i-1] +nums[i]);
+        }
+        return dp[nums.length];
     }
 }
