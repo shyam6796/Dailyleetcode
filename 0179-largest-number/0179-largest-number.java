@@ -10,7 +10,7 @@ class Solution {
         
         if(checkZero(sb.toString()))return "0";
         
-        while(sb.length() !=0 && sb.charAt(0)==0)sb.deleteCharAt(0);
+        while(sb.length() >1 && sb.charAt(0)==0)sb.deleteCharAt(0);
 
         return sb.toString();
 
@@ -33,7 +33,7 @@ class Solution {
 
     public boolean checkZero(String s){
         int index =0;
-        while(index < s.length()) if(s.charAt(index++) !=0)return false;
+        while(index < s.length()) if(s.charAt(index++) !='0')return false;
         return true;
     }
 }
