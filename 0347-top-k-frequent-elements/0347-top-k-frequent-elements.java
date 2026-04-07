@@ -32,11 +32,11 @@ class Solution {
         int pivotIndex =left +(right -left)/2;
         int pivot =nums[pivotIndex];
         int pivotFreq = map.get(pivot);
-        swap(nums,pivot,right);
+        swap(nums,pivotIndex,right);
         int index =left;
 
         for(int i =left; i <right; i++){
-            if(map.get(nums[i]) >= pivotFreq){
+            if(map.get(nums[i]) > pivotFreq){
                 swap(nums,i,index);
                 index++;
             }
