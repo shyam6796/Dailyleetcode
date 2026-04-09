@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0072-edit-distance](https://github.com/shyam6796/Dailyleetcode/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/shyam6796/Dailyleetcode/tree/main/0091-decode-ways/) | Medium |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
+| [0131-palindrome-partitioning](https://github.com/shyam6796/Dailyleetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0072-edit-distance](https://github.com/shyam6796/Dailyleetcode/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/shyam6796/Dailyleetcode/tree/main/0091-decode-ways/) | Medium |
 | [0118-pascals-triangle](https://github.com/shyam6796/Dailyleetcode/tree/main/0118-pascals-triangle/) | Easy |
+| [0131-palindrome-partitioning](https://github.com/shyam6796/Dailyleetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0198-house-robber](https://github.com/shyam6796/Dailyleetcode/tree/main/0198-house-robber/) | Medium |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
@@ -183,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0046-permutations](https://github.com/shyam6796/Dailyleetcode/tree/main/0046-permutations/) | Medium |
+| [0131-palindrome-partitioning](https://github.com/shyam6796/Dailyleetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
