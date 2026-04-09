@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/shyam6796/Dailyleetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/shyam6796/Dailyleetcode/tree/main/0057-insert-interval/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/shyam6796/Dailyleetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0118-pascals-triangle](https://github.com/shyam6796/Dailyleetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0135-candy](https://github.com/shyam6796/Dailyleetcode/tree/main/0135-candy/) | Hard |
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0012-integer-to-roman](https://github.com/shyam6796/Dailyleetcode/tree/main/0012-integer-to-roman/) | Medium |
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
 | [0142-linked-list-cycle-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
@@ -191,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
@@ -205,4 +208,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0143-reorder-list](https://github.com/shyam6796/Dailyleetcode/tree/main/0143-reorder-list/) | Medium |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 <!---LeetCode Topics End-->
