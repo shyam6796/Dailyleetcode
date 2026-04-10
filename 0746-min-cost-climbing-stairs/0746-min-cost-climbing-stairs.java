@@ -2,7 +2,7 @@ class Solution {
     Integer memo[] ;
     public int minCostClimbingStairs(int[] cost) {
         memo =new Integer[cost.length];
-        return Math.min(helper(cost,0),helper(cost, 1));
+        return Math.min(helper(cost, 1),helper(cost,0));
     }
     public int helper(int[]cost, int index){
         if(index >=cost.length)return 0;
