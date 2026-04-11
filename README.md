@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -196,11 +197,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -233,10 +236,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
