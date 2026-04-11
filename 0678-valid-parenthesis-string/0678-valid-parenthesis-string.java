@@ -1,20 +1,23 @@
 class Solution {
     public boolean checkValidString(String s) {
-        Stack<Character> stack = new Stack<>();
-        int stars =0;
-
+        int min =0;
+        int max =0;
+        
         for(int i =0; i < s.length(); i++){
-            if(!stack.isEmpty() && s.charAt(i)==')'){
-                if(stack.peek()=='('){
-                    stack.pop();
-                }else{
-                    stars--;
-                }
-            }else if(s.charAt(i)=='(') stack.push('(');
-            else stars++;
+            if(s.charAt(i) =='('){
+                min++;
+                max++;
+            }else if(s.charAt(i) == ')'){
+                min--;
+                max--;
+            }else{
+                min--;
+                max++;
+            }
+            if( max < 0)return false;
+            if(min < 0)min=0;
         }
+         return min ==0;
 
-       
-        return stack.size() <=stars;
     }
 }
