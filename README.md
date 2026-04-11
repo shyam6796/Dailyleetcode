@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/shyam6796/Dailyleetcode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/shyam6796/Dailyleetcode/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0171-excel-sheet-column-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0171-excel-sheet-column-number/) | Easy |
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/shyam6796/Dailyleetcode/tree/main/0012-integer-to-roman/) | Medium |
 | [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
 | [0070-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0070-climbing-stairs/) | Easy |
+| [0171-excel-sheet-column-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0171-excel-sheet-column-number/) | Easy |
 | [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
 ## Memoization
