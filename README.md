@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/shyam6796/Dailyleetcode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0016-3sum-closest](https://github.com/shyam6796/Dailyleetcode/tree/main/0016-3sum-closest/) | Medium |
 | [0027-remove-element](https://github.com/shyam6796/Dailyleetcode/tree/main/0027-remove-element/) | Easy |
+| [0035-search-insert-position](https://github.com/shyam6796/Dailyleetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0042-trapping-rain-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0046-permutations](https://github.com/shyam6796/Dailyleetcode/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0035-search-insert-position](https://github.com/shyam6796/Dailyleetcode/tree/main/0035-search-insert-position/) | Easy |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shyam6796/Dailyleetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
