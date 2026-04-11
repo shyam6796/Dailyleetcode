@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/shyam6796/Dailyleetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0042-trapping-rain-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0055-jump-game](https://github.com/shyam6796/Dailyleetcode/tree/main/0055-jump-game/) | Medium |
+| [0063-unique-paths-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/shyam6796/Dailyleetcode/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/shyam6796/Dailyleetcode/tree/main/0091-decode-ways/) | Medium |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/shyam6796/Dailyleetcode/tree/main/0055-jump-game/) | Medium |
 | [0056-merge-intervals](https://github.com/shyam6796/Dailyleetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/shyam6796/Dailyleetcode/tree/main/0057-insert-interval/) | Medium |
+| [0063-unique-paths-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/shyam6796/Dailyleetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0118-pascals-triangle](https://github.com/shyam6796/Dailyleetcode/tree/main/0118-pascals-triangle/) | Easy |
@@ -255,4 +257,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shyam6796/Dailyleetcode/tree/main/0030-substring-with-concatenation-of-all-words/) | Hard |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0063-unique-paths-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0063-unique-paths-ii/) | Medium |
 <!---LeetCode Topics End-->
