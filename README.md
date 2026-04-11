@@ -203,10 +203,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0046-permutations](https://github.com/shyam6796/Dailyleetcode/tree/main/0046-permutations/) | Medium |
+| [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/shyam6796/Dailyleetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
 ## Breadth-First Search
@@ -246,11 +248,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
