@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/shyam6796/Dailyleetcode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shyam6796/Dailyleetcode/tree/main/0030-substring-with-concatenation-of-all-words/) | Hard |
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
 | [0072-edit-distance](https://github.com/shyam6796/Dailyleetcode/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/shyam6796/Dailyleetcode/tree/main/0091-decode-ways/) | Medium |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/shyam6796/Dailyleetcode/tree/main/0007-reverse-integer/) | Medium |
 | [0012-integer-to-roman](https://github.com/shyam6796/Dailyleetcode/tree/main/0012-integer-to-roman/) | Medium |
+| [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
 | [0070-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
@@ -171,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shyam6796/Dailyleetcode/tree/main/1356-sort-integers-by-the-number-of-1-bits/) | Easy |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shyam6796/Dailyleetcode/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 ## Counting
@@ -252,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/shyam6796/Dailyleetcode/tree/main/0657-robot-return-to-origin/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
