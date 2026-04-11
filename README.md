@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shyam6796/Dailyleetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1200-minimum-absolute-difference](https://github.com/shyam6796/Dailyleetcode/tree/main/1200-minimum-absolute-difference/) | Easy |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shyam6796/Dailyleetcode/tree/main/1356-sort-integers-by-the-number-of-1-bits/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1200-minimum-absolute-difference](https://github.com/shyam6796/Dailyleetcode/tree/main/1200-minimum-absolute-difference/) | Easy |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shyam6796/Dailyleetcode/tree/main/1356-sort-integers-by-the-number-of-1-bits/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
