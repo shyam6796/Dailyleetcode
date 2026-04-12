@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0187-repeated-dna-sequences](https://github.com/shyam6796/Dailyleetcode/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0212-word-search-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0212-word-search-ii/) | Hard |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/shyam6796/Dailyleetcode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/shyam6796/Dailyleetcode/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
 ## Doubly-Linked List
@@ -229,12 +231,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
 ## Graph Theory
@@ -269,12 +273,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
