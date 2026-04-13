@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0277-find-the-celebrity](https://github.com/shyam6796/Dailyleetcode/tree/main/0277-find-the-celebrity/) | Medium |
 | [0283-move-zeroes](https://github.com/shyam6796/Dailyleetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/shyam6796/Dailyleetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0696-count-binary-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0696-count-binary-substrings/) | Easy |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
 | [0229-majority-element-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/shyam6796/Dailyleetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0324-wiggle-sort-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0324-wiggle-sort-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
@@ -199,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/shyam6796/Dailyleetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 ## Math
@@ -245,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0146-lru-cache/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/shyam6796/Dailyleetcode/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0295-find-median-from-data-stream](https://github.com/shyam6796/Dailyleetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
@@ -373,4 +377,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/shyam6796/Dailyleetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
 <!---LeetCode Topics End-->
