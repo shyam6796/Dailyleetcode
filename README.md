@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/shyam6796/Dailyleetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0042-trapping-rain-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0046-permutations](https://github.com/shyam6796/Dailyleetcode/tree/main/0046-permutations/) | Medium |
+| [0047-permutations-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0047-permutations-ii/) | Medium |
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0055-jump-game](https://github.com/shyam6796/Dailyleetcode/tree/main/0055-jump-game/) | Medium |
 | [0056-merge-intervals](https://github.com/shyam6796/Dailyleetcode/tree/main/0056-merge-intervals/) | Medium |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0016-3sum-closest](https://github.com/shyam6796/Dailyleetcode/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0018-4sum/) | Medium |
+| [0047-permutations-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0047-permutations-ii/) | Medium |
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0056-merge-intervals](https://github.com/shyam6796/Dailyleetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
@@ -248,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0046-permutations](https://github.com/shyam6796/Dailyleetcode/tree/main/0046-permutations/) | Medium |
+| [0047-permutations-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0047-permutations-ii/) | Medium |
 | [0090-subsets-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0113-path-sum-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0113-path-sum-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/shyam6796/Dailyleetcode/tree/main/0131-palindrome-partitioning/) | Medium |
