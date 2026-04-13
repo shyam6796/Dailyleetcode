@@ -5,7 +5,7 @@ class Solution {
         do{
             fast = func(func(fast));
             slow = func(slow);
-            if(fast ==1)return true;
+            if(fast ==1 || fast ==7)return true;
         }while(fast !=slow);
         return false;
     }
