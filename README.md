@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [0974-subarray-sums-divisible-by-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shyam6796/Dailyleetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1200-minimum-absolute-difference](https://github.com/shyam6796/Dailyleetcode/tree/main/1200-minimum-absolute-difference/) | Easy |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shyam6796/Dailyleetcode/tree/main/1356-sort-integers-by-the-number-of-1-bits/) | Easy |
@@ -152,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
+| [0974-subarray-sums-divisible-by-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Prefix Sum
@@ -160,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/shyam6796/Dailyleetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0974-subarray-sums-divisible-by-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
