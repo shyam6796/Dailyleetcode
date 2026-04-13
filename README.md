@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0277-find-the-celebrity](https://github.com/shyam6796/Dailyleetcode/tree/main/0277-find-the-celebrity/) | Medium |
 | [0283-move-zeroes](https://github.com/shyam6796/Dailyleetcode/tree/main/0283-move-zeroes/) | Easy |
+| [0287-find-the-duplicate-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0696-count-binary-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0696-count-binary-substrings/) | Easy |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/shyam6796/Dailyleetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/shyam6796/Dailyleetcode/tree/main/0283-move-zeroes/) | Easy |
+| [0287-find-the-duplicate-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0312-burst-balloons](https://github.com/shyam6796/Dailyleetcode/tree/main/0312-burst-balloons/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
 | [0090-subsets-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0187-repeated-dna-sequences](https://github.com/shyam6796/Dailyleetcode/tree/main/0187-repeated-dna-sequences/) | Medium |
+| [0287-find-the-duplicate-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shyam6796/Dailyleetcode/tree/main/1356-sort-integers-by-the-number-of-1-bits/) | Easy |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shyam6796/Dailyleetcode/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 ## Counting
@@ -277,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/shyam6796/Dailyleetcode/tree/main/0035-search-insert-position/) | Easy |
+| [0287-find-the-duplicate-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/shyam6796/Dailyleetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shyam6796/Dailyleetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
