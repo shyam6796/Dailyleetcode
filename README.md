@@ -154,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
 | [0142-linked-list-cycle-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0146-lru-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0146-lru-cache/) | Medium |
 | [0187-repeated-dna-sequences](https://github.com/shyam6796/Dailyleetcode/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 | [0229-majority-element-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0229-majority-element-ii/) | Medium |
@@ -236,11 +237,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0092-reverse-linked-list-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0092-reverse-linked-list-ii/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0143-reorder-list](https://github.com/shyam6796/Dailyleetcode/tree/main/0143-reorder-list/) | Medium |
+| [0146-lru-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0146-lru-cache/) | Medium |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0146-lru-cache/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/shyam6796/Dailyleetcode/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
@@ -248,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0146-lru-cache/) | Medium |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
 ## Backtracking
