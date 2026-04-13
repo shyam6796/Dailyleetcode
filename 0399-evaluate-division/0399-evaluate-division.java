@@ -33,10 +33,13 @@ class Solution {
         double result =-1.0;
         List<Pair<String,Double>> list = map.get(node);
         for(Pair<String,Double> pr : list){
+            if(set.contains(pr.getKey()))continue;
             if(pr.getKey().equals(target))return pr.getValue();
-            if(!set.contains(pr.getKey())){
-                result = pr.getValue() * DFS(map, set, pr.getKey(), target);
+            else{
+                result = DFS(map, set, pr.getKey(), target);
+                if(result != -1.0)return result * pr.getValue();
             }
+
         }
         
         return result;
