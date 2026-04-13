@@ -10,7 +10,7 @@ class Solution {
             if(Math.abs(x -arr[mid]) > Math.abs(arr[mid]-k)){
                 start =mid+1;
             }else{
-                end =mid-1;
+                end =mid;
             }
         }
         for(int i=start; i<start+k; i++){
