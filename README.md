@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0118-pascals-triangle](https://github.com/shyam6796/Dailyleetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/shyam6796/Dailyleetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0135-candy](https://github.com/shyam6796/Dailyleetcode/tree/main/0135-candy/) | Hard |
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
 | [0198-house-robber](https://github.com/shyam6796/Dailyleetcode/tree/main/0198-house-robber/) | Medium |
@@ -154,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0127-word-ladder](https://github.com/shyam6796/Dailyleetcode/tree/main/0127-word-ladder/) | Hard |
+| [0128-longest-consecutive-sequence](https://github.com/shyam6796/Dailyleetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0146-lru-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0146-lru-cache/) | Medium |
 | [0187-repeated-dna-sequences](https://github.com/shyam6796/Dailyleetcode/tree/main/0187-repeated-dna-sequences/) | Medium |
@@ -377,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shyam6796/Dailyleetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
 ## Shortest Path
