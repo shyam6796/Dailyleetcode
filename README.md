@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/shyam6796/Dailyleetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0012-integer-to-roman](https://github.com/shyam6796/Dailyleetcode/tree/main/0012-integer-to-roman/) | Medium |
 | [0014-longest-common-prefix](https://github.com/shyam6796/Dailyleetcode/tree/main/0014-longest-common-prefix/) | Easy |
+| [0020-valid-parentheses](https://github.com/shyam6796/Dailyleetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shyam6796/Dailyleetcode/tree/main/0030-substring-with-concatenation-of-all-words/) | Hard |
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/shyam6796/Dailyleetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/shyam6796/Dailyleetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/shyam6796/Dailyleetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0143-reorder-list](https://github.com/shyam6796/Dailyleetcode/tree/main/0143-reorder-list/) | Medium |
