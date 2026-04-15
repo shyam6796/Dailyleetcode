@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
+| [0438-find-all-anagrams-in-a-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0443-string-compression](https://github.com/shyam6796/Dailyleetcode/tree/main/0443-string-compression/) | Medium |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/shyam6796/Dailyleetcode/tree/main/0657-robot-return-to-origin/) | Easy |
@@ -174,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 | [0229-majority-element-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0438-find-all-anagrams-in-a-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -378,6 +380,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shyam6796/Dailyleetcode/tree/main/0030-substring-with-concatenation-of-all-words/) | Hard |
 | [0187-repeated-dna-sequences](https://github.com/shyam6796/Dailyleetcode/tree/main/0187-repeated-dna-sequences/) | Medium |
+| [0438-find-all-anagrams-in-a-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/shyam6796/Dailyleetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 ## Matrix
