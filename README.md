@@ -124,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
 | [0419-battleships-in-a-board](https://github.com/shyam6796/Dailyleetcode/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0529-minesweeper](https://github.com/shyam6796/Dailyleetcode/tree/main/0529-minesweeper/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -307,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/shyam6796/Dailyleetcode/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0419-battleships-in-a-board](https://github.com/shyam6796/Dailyleetcode/tree/main/0419-battleships-in-a-board/) | Medium |
+| [0529-minesweeper](https://github.com/shyam6796/Dailyleetcode/tree/main/0529-minesweeper/) | Medium |
 | [0545-boundary-of-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0545-boundary-of-binary-tree/) | Medium |
 | [0547-number-of-provinces](https://github.com/shyam6796/Dailyleetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -320,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0365-water-and-jug-problem](https://github.com/shyam6796/Dailyleetcode/tree/main/0365-water-and-jug-problem/) | Medium |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/shyam6796/Dailyleetcode/tree/main/0404-sum-of-left-leaves/) | Easy |
+| [0529-minesweeper](https://github.com/shyam6796/Dailyleetcode/tree/main/0529-minesweeper/) | Medium |
 | [0547-number-of-provinces](https://github.com/shyam6796/Dailyleetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
@@ -399,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0212-word-search-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0212-word-search-ii/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/shyam6796/Dailyleetcode/tree/main/0419-battleships-in-a-board/) | Medium |
+| [0529-minesweeper](https://github.com/shyam6796/Dailyleetcode/tree/main/0529-minesweeper/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
