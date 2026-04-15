@@ -7,11 +7,12 @@ class Solution {
         for(int i=0; i < nums.length; i++){
             sum +=nums[i];
             sum =sum%k;
-            if(map.containsKey(sum) && map.get(sum) !=i){
+            if(sum==0 && i >0)return true;
+            if(map.containsKey(sum) && i-map.get(sum)  >1){
                 return true;
             }
 
-             map.put(sum,i);
+             if(!map.containsKey(sum))map.put(sum,i);
         }
         return false;
     }
