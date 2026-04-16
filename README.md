@@ -134,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
 | [0974-subarray-sums-divisible-by-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/shyam6796/Dailyleetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shyam6796/Dailyleetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
@@ -224,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/shyam6796/Dailyleetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
 | [1200-minimum-absolute-difference](https://github.com/shyam6796/Dailyleetcode/tree/main/1200-minimum-absolute-difference/) | Easy |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shyam6796/Dailyleetcode/tree/main/1356-sort-integers-by-the-number-of-1-bits/) | Easy |
 ## Trie
@@ -240,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/shyam6796/Dailyleetcode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0621-task-scheduler](https://github.com/shyam6796/Dailyleetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -365,11 +368,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0324-wiggle-sort-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0324-wiggle-sort-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/shyam6796/Dailyleetcode/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -464,4 +469,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0310-minimum-height-trees](https://github.com/shyam6796/Dailyleetcode/tree/main/0310-minimum-height-trees/) | Medium |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
+## Radix Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
 <!---LeetCode Topics End-->
