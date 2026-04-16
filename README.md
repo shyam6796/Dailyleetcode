@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0132-palindrome-partitioning-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0198-house-robber](https://github.com/shyam6796/Dailyleetcode/tree/main/0198-house-robber/) | Medium |
 | [0312-burst-balloons](https://github.com/shyam6796/Dailyleetcode/tree/main/0312-burst-balloons/) | Hard |
+| [0410-split-array-largest-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0647-palindromic-substrings](https://github.com/shyam6796/Dailyleetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0324-wiggle-sort-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0324-wiggle-sort-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/shyam6796/Dailyleetcode/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0529-minesweeper](https://github.com/shyam6796/Dailyleetcode/tree/main/0529-minesweeper/) | Medium |
@@ -165,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0179-largest-number/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0324-wiggle-sort-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0324-wiggle-sort-ii/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0621-task-scheduler](https://github.com/shyam6796/Dailyleetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
@@ -202,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/shyam6796/Dailyleetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0253-meeting-rooms-ii/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0523-continuous-subarray-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0974-subarray-sums-divisible-by-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
@@ -362,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/shyam6796/Dailyleetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/shyam6796/Dailyleetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shyam6796/Dailyleetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
