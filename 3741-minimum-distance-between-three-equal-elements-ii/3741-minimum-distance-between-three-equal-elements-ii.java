@@ -10,11 +10,11 @@ class Solution {
                  List<Integer> ls = map.get(nums[i]);
                  int a =ls.get(ls.size()-1);
                  int b =ls.get(ls.size()-3);
-                  min = Math.min(min,2*(a-b));
+                  min = Math.min(min,(a-b));
             }
         }
       //  System.out.println(map);
        
-        return min==Integer.MAX_VALUE ? -1 : min;
+        return min==Integer.MAX_VALUE ? -1 :2* min;
     }
 }
