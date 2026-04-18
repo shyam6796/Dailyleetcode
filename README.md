@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0212-word-search-ii/) | Hard |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0388-longest-absolute-file-path](https://github.com/shyam6796/Dailyleetcode/tree/main/0388-longest-absolute-file-path/) | Medium |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0443-string-compression](https://github.com/shyam6796/Dailyleetcode/tree/main/0443-string-compression/) | Medium |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/shyam6796/Dailyleetcode/tree/main/0143-reorder-list/) | Medium |
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
 | [0225-implement-stack-using-queues](https://github.com/shyam6796/Dailyleetcode/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0388-longest-absolute-file-path](https://github.com/shyam6796/Dailyleetcode/tree/main/0388-longest-absolute-file-path/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
@@ -337,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0310-minimum-height-trees](https://github.com/shyam6796/Dailyleetcode/tree/main/0310-minimum-height-trees/) | Medium |
 | [0365-water-and-jug-problem](https://github.com/shyam6796/Dailyleetcode/tree/main/0365-water-and-jug-problem/) | Medium |
+| [0388-longest-absolute-file-path](https://github.com/shyam6796/Dailyleetcode/tree/main/0388-longest-absolute-file-path/) | Medium |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/shyam6796/Dailyleetcode/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0419-battleships-in-a-board](https://github.com/shyam6796/Dailyleetcode/tree/main/0419-battleships-in-a-board/) | Medium |
