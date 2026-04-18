@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0746-min-cost-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
 | [0974-subarray-sums-divisible-by-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
+| [0994-rotting-oranges](https://github.com/shyam6796/Dailyleetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/shyam6796/Dailyleetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shyam6796/Dailyleetcode/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1200-minimum-absolute-difference](https://github.com/shyam6796/Dailyleetcode/tree/main/1200-minimum-absolute-difference/) | Easy |
@@ -352,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0529-minesweeper](https://github.com/shyam6796/Dailyleetcode/tree/main/0529-minesweeper/) | Medium |
 | [0547-number-of-provinces](https://github.com/shyam6796/Dailyleetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
+| [0994-rotting-oranges](https://github.com/shyam6796/Dailyleetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/shyam6796/Dailyleetcode/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shyam6796/Dailyleetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/shyam6796/Dailyleetcode/tree/main/2858-minimum-edge-reversals-so-every-node-is-reachable/) | Hard |
@@ -437,6 +439,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0212-word-search-ii/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/shyam6796/Dailyleetcode/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0529-minesweeper](https://github.com/shyam6796/Dailyleetcode/tree/main/0529-minesweeper/) | Medium |
+| [0994-rotting-oranges](https://github.com/shyam6796/Dailyleetcode/tree/main/0994-rotting-oranges/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
