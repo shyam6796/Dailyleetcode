@@ -268,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0365-water-and-jug-problem](https://github.com/shyam6796/Dailyleetcode/tree/main/0365-water-and-jug-problem/) | Medium |
 | [0371-sum-of-two-integers](https://github.com/shyam6796/Dailyleetcode/tree/main/0371-sum-of-two-integers/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0829-consecutive-numbers-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0829-consecutive-numbers-sum/) | Hard |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -507,4 +508,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0829-consecutive-numbers-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0829-consecutive-numbers-sum/) | Hard |
 <!---LeetCode Topics End-->
