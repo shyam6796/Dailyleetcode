@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0622-design-circular-queue](https://github.com/shyam6796/Dailyleetcode/tree/main/0622-design-circular-queue/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/shyam6796/Dailyleetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0697-degree-of-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0697-degree-of-an-array/) | Easy |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/shyam6796/Dailyleetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0912-sort-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0912-sort-an-array/) | Medium |
@@ -203,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/shyam6796/Dailyleetcode/tree/main/0621-task-scheduler/) | Medium |
+| [0697-degree-of-an-array](https://github.com/shyam6796/Dailyleetcode/tree/main/0697-degree-of-an-array/) | Easy |
 | [0721-accounts-merge](https://github.com/shyam6796/Dailyleetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0974-subarray-sums-divisible-by-k](https://github.com/shyam6796/Dailyleetcode/tree/main/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
