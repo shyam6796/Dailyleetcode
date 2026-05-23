@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0312-burst-balloons](https://github.com/shyam6796/Dailyleetcode/tree/main/0312-burst-balloons/) | Hard |
 | [0324-wiggle-sort-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0324-wiggle-sort-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0380-insert-delete-getrandom-o1](https://github.com/shyam6796/Dailyleetcode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0399-evaluate-division](https://github.com/shyam6796/Dailyleetcode/tree/main/0399-evaluate-division/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/shyam6796/Dailyleetcode/tree/main/0419-battleships-in-a-board/) | Medium |
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0202-happy-number](https://github.com/shyam6796/Dailyleetcode/tree/main/0202-happy-number/) | Easy |
 | [0229-majority-element-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/shyam6796/Dailyleetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0380-insert-delete-getrandom-o1](https://github.com/shyam6796/Dailyleetcode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/shyam6796/Dailyleetcode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/shyam6796/Dailyleetcode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0224-basic-calculator](https://github.com/shyam6796/Dailyleetcode/tree/main/0224-basic-calculator/) | Hard |
 | [0365-water-and-jug-problem](https://github.com/shyam6796/Dailyleetcode/tree/main/0365-water-and-jug-problem/) | Medium |
 | [0371-sum-of-two-integers](https://github.com/shyam6796/Dailyleetcode/tree/main/0371-sum-of-two-integers/) | Medium |
+| [0380-insert-delete-getrandom-o1](https://github.com/shyam6796/Dailyleetcode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0829-consecutive-numbers-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0829-consecutive-numbers-sum/) | Hard |
 ## Memoization
@@ -315,6 +318,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0225-implement-stack-using-queues](https://github.com/shyam6796/Dailyleetcode/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/shyam6796/Dailyleetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shyam6796/Dailyleetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0380-insert-delete-getrandom-o1](https://github.com/shyam6796/Dailyleetcode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0460-lfu-cache](https://github.com/shyam6796/Dailyleetcode/tree/main/0460-lfu-cache/) | Hard |
 | [0622-design-circular-queue](https://github.com/shyam6796/Dailyleetcode/tree/main/0622-design-circular-queue/) | Medium |
 | [1797-design-authentication-manager](https://github.com/shyam6796/Dailyleetcode/tree/main/1797-design-authentication-manager/) | Medium |
@@ -516,4 +520,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0829-consecutive-numbers-sum](https://github.com/shyam6796/Dailyleetcode/tree/main/0829-consecutive-numbers-sum/) | Hard |
+## Randomized
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/shyam6796/Dailyleetcode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 <!---LeetCode Topics End-->
