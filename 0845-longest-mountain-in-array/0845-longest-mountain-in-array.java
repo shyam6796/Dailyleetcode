@@ -13,6 +13,7 @@ class Solution {
                 right++;
             }//right=6
             maxLen =Math.max(maxLen,right-left-1);
+            i=right-1;
         }
         return maxLen;
     }
