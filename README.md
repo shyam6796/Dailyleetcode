@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shyam6796/Dailyleetcode/tree/main/0030-substring-with-concatenation-of-all-words/) | Hard |
 | [0049-group-anagrams](https://github.com/shyam6796/Dailyleetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
+| [0068-text-justification](https://github.com/shyam6796/Dailyleetcode/tree/main/0068-text-justification/) | Hard |
 | [0072-edit-distance](https://github.com/shyam6796/Dailyleetcode/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/shyam6796/Dailyleetcode/tree/main/0091-decode-ways/) | Medium |
 | [0115-distinct-subsequences](https://github.com/shyam6796/Dailyleetcode/tree/main/0115-distinct-subsequences/) | Hard |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/shyam6796/Dailyleetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/shyam6796/Dailyleetcode/tree/main/0057-insert-interval/) | Medium |
 | [0063-unique-paths-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0063-unique-paths-ii/) | Medium |
+| [0068-text-justification](https://github.com/shyam6796/Dailyleetcode/tree/main/0068-text-justification/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/shyam6796/Dailyleetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0090-subsets-ii](https://github.com/shyam6796/Dailyleetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shyam6796/Dailyleetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
@@ -445,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0067-add-binary](https://github.com/shyam6796/Dailyleetcode/tree/main/0067-add-binary/) | Easy |
+| [0068-text-justification](https://github.com/shyam6796/Dailyleetcode/tree/main/0068-text-justification/) | Hard |
 | [0657-robot-return-to-origin](https://github.com/shyam6796/Dailyleetcode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0735-asteroid-collision](https://github.com/shyam6796/Dailyleetcode/tree/main/0735-asteroid-collision/) | Medium |
 ## Sliding Window
